@@ -1,15 +1,31 @@
+from datetime import datetime
 import requests
 from bs4 import BeautifulSoup
 import json
 import re
 
 
-def scrape_wikihow(url):
-    r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"})
-    soup = BeautifulSoup(r.text, "html.parser")
+def scrape_wikihow(url, html=None):
+    # Accept pre-fetched HTML to avoid duplicate requests when caller already
+    # fetched the page. If `html` is None, fetch it here.
+    if html is None:
+        r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=15)
+        r.raise_for_status()
+        html = r.text
+    soup = BeautifulSoup(html, "html.parser")
 
     # --- Goal ---
-    goal = soup.find("h1", {"id": "section_0"}).get_text(strip=True)
+    # Title: try several fallbacks since some pages vary in structure
+    goal_el = (
+        soup.find("h1", {"id": "section_0"})
+        or soup.find("h1")
+        or soup.find("h1", class_="firstHeading")
+    )
+    goal = goal_el.get_text(strip=True) if goal_el else ""
+    # --- Last Updated Date ---
+    sp_text_data_list = soup.findAll("span", class_="sp_text_data")
+    last_update_text=sp_text_data_list[1].get_text(strip=True)if len(sp_text_data_list) > 2 else "N/A"
+    last_update_date=datetime.strptime(last_update_text,"%B %d, %Y").date().isoformat() if last_update_text!="N/A" else "N/A"
 
     # --- Methods ---
     methods = []
@@ -100,9 +116,9 @@ def scrape_wikihow(url):
 
         methods.append({"method": title, "steps": steps})
 
-    return {"goal": goal, "methods": methods}
+    return {"goal": goal,"last_update":last_update_date, "methods": methods}
 
 
-# --- Example test ---
-data = scrape_wikihow("https://www.wikihow.com/Learn-French")
-print(json.dumps(data, indent=2, ensure_ascii=False))
+# # --- Example test ---
+# data = scrape_wikihow("https://www.wikihow.com/Learn-French")
+# print(json.dumps(data, indent=2, ensure_ascii=False))

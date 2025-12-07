@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+
+# Editor directories and files
+.vscode/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Ignore data outputs (scraped JSON files)
+data/
+
+# Logs
+.log
