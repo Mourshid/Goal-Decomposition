@@ -1,0 +1,80 @@
+{
+    "goal": "",
+    "goal_category": "one_time | habit",
+    "goal_type": "",
+    "time_horizon": "",
+    "description": "",
+    "baseline": {
+        "fixed_constraints": "",
+        "physical_constraints": "",
+        "non_negotiables": ""
+    },
+    "failure_policy": {
+        "missed_task_handling": "retry | downgrade | skip",
+        "habit_miss_interpretation": "neutral | warning | reset"
+    },
+    "tasks": []
+}
+{
+    "index": 0,
+    "task": "",
+    "description": "",
+    "is_repeatable": true,
+    "repeat_pattern": "daily | weekly | custom | none",
+    "estimated_duration_minutes": {
+        "min": 0,
+        "max": 0
+    },
+    "success_criteria": "",
+    "fallback_version": "",
+    "dependencies": ""
+}
+You are generating synthetic training data for a goal decomposition system.
+
+Your task is to output a single JSON object that strictly follows the provided schema.
+
+Context:
+- The system helps users break down life-related goals (fitness, study, habits).
+- Goals are explicitly classified as either one_time or habit.
+- Goal category describes the nature of the goal, not task repetition.
+
+Hard rules:
+- Output ONLY valid JSON.
+- No explanations, comments, or extra text.
+- Do NOT schedule tasks or assign dates/times.
+- All tasks must be concrete, observable, and verifiable.
+- Respect baseline constraints.
+- Do not invent unrealistic abilities or extreme discipline.
+
+Task ordering rules:
+- Each task MUST include an index.
+- Index values must start at 1 and increase sequentially.
+- Task order represents logical or execution order, not time.
+
+Task repeatability rules:
+- Every task MUST declare is_repeatable and repeat_pattern.
+- If is_repeatable = false:
+  - repeat_pattern MUST be "none"
+  - fallback_version MUST be omitted or empty
+  - dependencies MAY be used
+- If is_repeatable = true:
+  - repeat_pattern MUST NOT be "none"
+  - fallback_version is REQUIRED
+  - dependencies MUST be empty
+
+Goal category rules:
+- If goal_category = "habit":
+  - ALL tasks MUST be repeatable
+  - Focus on consistency, sustainability, and low friction
+- If goal_category = "one_time":
+  - ALL tasks MUST be non-repeatable
+  - Tasks must advance toward a finite completion state
+
+Task quality rules:
+- Estimated durations must be realistic and small enough to complete.
+- Success criteria must clearly define when the task is complete.
+- Fallback versions must be strictly easier than the main task.
+- Tasks must be actionable by a normal human with limited time and energy.
+
+Produce a realistic sample representing a real human situation.
+Output ONLY the JSON object.
