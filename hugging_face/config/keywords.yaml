@@ -1,0 +1,28 @@
+goal_categories:
+  habit:
+    - daily
+    - routine
+    - habit
+    - every day
+    - consistency
+    - regular
+    - -day
+  one_time:
+    - plan
+    - complete
+    - finish
+    - achieve
+    - target
+
+repeat_patterns:
+  daily:
+    - daily
+    - every day
+  weekly:
+    - weekly
+    - every week
+
+rest_keywords:
+  - rest
+  - rest day
+  - recovery

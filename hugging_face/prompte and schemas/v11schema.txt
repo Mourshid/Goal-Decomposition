@@ -9,10 +9,7 @@
         "physical_constraints": "",
         "non_negotiables": ""
     },
-    "failure_policy": {
-        "missed_task_handling": "retry | downgrade | skip",
-        "habit_miss_interpretation": "neutral | warning | reset"
-    },
+    
     "tasks": []
 }
 {
@@ -25,9 +22,7 @@
         "min": 0,
         "max": 0
     },
-    "success_criteria": "",
-    "fallback_version": "",
-    "dependencies": ""
+    
 }
 You are generating synthetic training data for a goal decomposition system.
 
@@ -42,6 +37,7 @@ Hard rules:
 - Output ONLY valid JSON.
 - No explanations, comments, or extra text.
 - Do NOT schedule tasks or assign dates/times.
+- Time horizon must be representing days.
 - All tasks must be concrete, observable, and verifiable.
 - Respect baseline constraints.
 - Do not invent unrealistic abilities or extreme discipline.
