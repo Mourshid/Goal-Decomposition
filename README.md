@@ -22,3 +22,8 @@ Outputs are written to the `data/` directory as `{topic}.json` files.
 Notes
 - Be polite and avoid scraping aggressively; adjust `per_topic` and add delays as needed.
 - Consider recording HTML fixtures for unit tests to avoid live requests.
+
+---
+
+# External data sets:
+600K+ Fitness Exercise & Workout Program Dataset : https://www.kaggle.com/datasets/adnanelouardi/600k-fitness-exercise-and-workout-program-dataset
