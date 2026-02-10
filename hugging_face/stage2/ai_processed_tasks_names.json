@@ -311,11 +311,6 @@
   },
   {
     "plan_index": 3,
-    "section_index": 1,
-    "task": "Read article on microplastics, review Tuesday flashcards, take quiz"
-  },
-  {
-    "plan_index": 3,
     "section_index": 2,
     "task": "Watch video on microplastics, use Pomodoro, review flashcards, take quiz"
   },
@@ -378,11 +373,6 @@
     "plan_index": 9,
     "section_index": 2,
     "task": "Watch and summarize anthropogenic impacts on biogeochemical cycles video"
-  },
-  {
-    "plan_index": 9,
-    "section_index": 3,
-    "task": "Review flashcards and take short quiz on Monday"
   },
   {
     "plan_index": 9,
@@ -786,11 +776,6 @@
   },
   {
     "plan_index": 32,
-    "section_index": 3,
-    "task": "Create a mind map of microbial interactions and bioremediation techniques from Wednesday's notes (1 hour)"
-  },
-  {
-    "plan_index": 32,
     "section_index": 4,
     "task": "Review flashcards on microbial interactions and bioremediation (30 minutes)"
   },
@@ -1106,11 +1091,6 @@
   },
   {
     "plan_index": 56,
-    "section_index": 3,
-    "task": "Review flashcards and take quiz on Tuesday mechanisms (45 minutes)"
-  },
-  {
-    "plan_index": 56,
     "section_index": 4,
     "task": "Review challenging topics with flashcards (30 minutes)"
   },
@@ -1338,11 +1318,6 @@
     "plan_index": 75,
     "section_index": 3,
     "task": "Review health impacts of microplastics with flashcards and quiz"
-  },
-  {
-    "plan_index": 75,
-    "section_index": 4,
-    "task": "Review microplastics flashcards with spaced repetition on Monday"
   },
   {
     "plan_index": 75,
@@ -1691,11 +1666,6 @@
   },
   {
     "plan_index": 95,
-    "section_index": 1,
-    "task": "Review and create flashcards for Sunday notes (30 minutes)"
-  },
-  {
-    "plan_index": 95,
     "section_index": 2,
     "task": "Watch and take notes on carbon sequestration video (Pomodoro)"
   },
@@ -1863,11 +1833,6 @@
     "plan_index": 107,
     "section_index": 2,
     "task": "Watch video on microplastics in food chain and health risks, then take quiz"
-  },
-  {
-    "plan_index": 107,
-    "section_index": 3,
-    "task": "Review Saturday's material with active recall, create a mind map, and practice flashcards on human health impact of microplastics"
   },
   {
     "plan_index": 107,
@@ -2181,11 +2146,6 @@
   },
   {
     "plan_index": 123,
-    "section_index": 1,
-    "task": "Create flashcards for biotic and abiotic factors from Sunday's notes (30 minutes)"
-  },
-  {
-    "plan_index": 123,
     "section_index": 2,
     "task": "Watch and Summarize Ecosystem Resilience Video, Create Mind Map"
   },
@@ -2303,11 +2263,6 @@
     "plan_index": 135,
     "section_index": 0,
     "task": "Study nitrogen and carbon cycles in coastal wetlands (Pomodoro technique: 4 cycles)"
-  },
-  {
-    "plan_index": 135,
-    "section_index": 1,
-    "task": "Review Monday's material with spaced repetition and explore coastal wetlands' carbon sequestration role using flashcards"
   },
   {
     "plan_index": 135,
@@ -2718,11 +2673,6 @@
     "plan_index": 170,
     "section_index": 0,
     "task": "Watch introductory video on sequences and series convergence (Pomodoro Technique: 3 cycles)"
-  },
-  {
-    "plan_index": 170,
-    "section_index": 1,
-    "task": "Review flashcards on Monday's concepts, quiz afterward"
   },
   {
     "plan_index": 170,
@@ -3651,11 +3601,6 @@
   },
   {
     "plan_index": 223,
-    "section_index": 5,
-    "task": "Review flashcards and take quick quiz on Monday"
-  },
-  {
-    "plan_index": 223,
     "section_index": 6,
     "task": "Review notes and flashcards using spaced repetition"
   },
@@ -3783,11 +3728,6 @@
     "plan_index": 227,
     "section_index": 0,
     "task": "Watch social media in politics overview video, take notes, review flashcards (Pomodoro technique)"
-  },
-  {
-    "plan_index": 227,
-    "section_index": 1,
-    "task": "Review notes, watch video, practice spaced repetition (Monday)"
   },
   {
     "plan_index": 227,
@@ -3928,11 +3868,6 @@
     "plan_index": 234,
     "section_index": 2,
     "task": "Summarize and organize article or textbook content using Cornell note-taking method"
-  },
-  {
-    "plan_index": 234,
-    "section_index": 3,
-    "task": "Review notes and flashcards for 30 minutes on Monday"
   },
   {
     "plan_index": 234,
@@ -4108,11 +4043,6 @@
     "plan_index": 252,
     "section_index": 2,
     "task": "Test knowledge with evening quizzes and review weak areas"
-  },
-  {
-    "plan_index": 252,
-    "section_index": 3,
-    "task": "Review Sunday's video lecture, study political culture's impact on policy-making (Pomodoro technique)"
   },
   {
     "plan_index": 252,
@@ -4603,11 +4533,6 @@
     "plan_index": 287,
     "section_index": 5,
     "task": "Review Postcolonial Literature: Watch Video, Use Flashcards, Take Quiz"
-  },
-  {
-    "plan_index": 287,
-    "section_index": 6,
-    "task": "Spend 1 hour reviewing with flashcards, videos, and quizzes on Sunday. End with a 30-minute self-assessment."
   },
   {
     "plan_index": 288,
@@ -5106,23 +5031,8 @@
   },
   {
     "plan_index": 318,
-    "section_index": 4,
-    "task": "Review notes and flashcards for 30 minutes on Monday"
-  },
-  {
-    "plan_index": 318,
-    "section_index": 5,
-    "task": "Listen to Tuesday's audio recordings and focus on pronunciation and intonation"
-  },
-  {
-    "plan_index": 318,
     "section_index": 6,
     "task": "Record self summarizing short stories and discussing cultural artifacts"
-  },
-  {
-    "plan_index": 318,
-    "section_index": 7,
-    "task": "Thursday: Study Thoroughly with Pomodoro Technique and Essay Practice"
   },
   {
     "plan_index": 318,
@@ -5397,12 +5307,12 @@
   {
     "plan_index": 333,
     "section_index": 0,
-    "task": "Study key vocabulary for 'Les D\u00e9fis Mondiaux et les Solutions Durables' using Pomodoro technique"
+    "task": "Study key vocabulary for 'Les Défis Mondiaux et les Solutions Durables' using Pomodoro technique"
   },
   {
     "plan_index": 333,
     "section_index": 1,
-    "task": "Take notes, summarize, and create a mind map from 'Les D\u00e9fis Mondiaux et les Solutions Durables' video lecture"
+    "task": "Take notes, summarize, and create a mind map from 'Les Défis Mondiaux et les Solutions Durables' video lecture"
   },
   {
     "plan_index": 333,
@@ -5417,7 +5327,7 @@
   {
     "plan_index": 333,
     "section_index": 4,
-    "task": "Take notes, discuss or explain 'Les D\u00e9fis Mondiaux et les Solutions Durables' from a lecture or article"
+    "task": "Take notes, discuss or explain 'Les Défis Mondiaux et les Solutions Durables' from a lecture or article"
   },
   {
     "plan_index": 333,
@@ -5428,16 +5338,6 @@
     "plan_index": 334,
     "section_index": 0,
     "task": "Study Traditional Chinese Market Vocabulary (Pomodoro Technique)"
-  },
-  {
-    "plan_index": 334,
-    "section_index": 1,
-    "task": "Review Sunday's vocabulary with spaced repetition, watch market etiquette video, and practice sentences"
-  },
-  {
-    "plan_index": 334,
-    "section_index": 2,
-    "task": "Review challenging terms and phrases with language app on Tuesday"
   },
   {
     "plan_index": 334,
@@ -5591,11 +5491,6 @@
   },
   {
     "plan_index": 345,
-    "section_index": 6,
-    "task": "Review flashcards and notes for 30 minutes on Monday"
-  },
-  {
-    "plan_index": 345,
     "section_index": 7,
     "task": "Review flashcards and notes for 30 minutes"
   },
@@ -5683,11 +5578,6 @@
     "plan_index": 349,
     "section_index": 5,
     "task": "Practice answering timed exam questions from video"
-  },
-  {
-    "plan_index": 349,
-    "section_index": 6,
-    "task": "Quickly review flashcards and notes using spaced repetition on Monday"
   },
   {
     "plan_index": 349,
@@ -6691,11 +6581,6 @@
   },
   {
     "plan_index": 434,
-    "section_index": 1,
-    "task": "Review flashcards on Wednesday topics, then explore electric fields and potential with video"
-  },
-  {
-    "plan_index": 434,
     "section_index": 2,
     "task": "Solve electric field problems using Pomodoro technique"
   },
@@ -7196,11 +7081,6 @@
   },
   {
     "plan_index": 480,
-    "section_index": 1,
-    "task": "Review notes, watch video, take quiz, use spaced repetition (Monday)"
-  },
-  {
-    "plan_index": 480,
     "section_index": 2,
     "task": "Explore mestizaje traditions: Watch video, create mind map, review flashcards"
   },
@@ -7297,7 +7177,7 @@
   {
     "plan_index": 485,
     "section_index": 1,
-    "task": "Study key authors: M\u00e1rquez, Borges with analyses and flashcards"
+    "task": "Study key authors: Márquez, Borges with analyses and flashcards"
   },
   {
     "plan_index": 485,
@@ -7406,11 +7286,6 @@
   },
   {
     "plan_index": 491,
-    "section_index": 6,
-    "task": "Review notes, flashcards, and quiz using Pomodoro technique; identify weak areas for Thursday"
-  },
-  {
-    "plan_index": 491,
     "section_index": 7,
     "task": "Review weak areas with flashcards and take final practice quiz"
   },
@@ -7443,11 +7318,6 @@
     "plan_index": 492,
     "section_index": 5,
     "task": "Review and identify improvement areas in a comprehensive Spanish language practice test"
-  },
-  {
-    "plan_index": 492,
-    "section_index": 6,
-    "task": "Review and reinforce areas from Friday's practice test (2 hours)"
   },
   {
     "plan_index": 492,
@@ -7703,11 +7573,6 @@
     "plan_index": 508,
     "section_index": 2,
     "task": "Review authoritarian socialization methods video and summarize"
-  },
-  {
-    "plan_index": 508,
-    "section_index": 3,
-    "task": "Review notes and flashcards for 45 minutes on Monday"
   },
   {
     "plan_index": 508,
@@ -8536,11 +8401,6 @@
   },
   {
     "plan_index": 567,
-    "section_index": 3,
-    "task": "Create a mind map of electoral systems and minority representation from Tuesday's notes. Test knowledge with flashcards."
-  },
-  {
-    "plan_index": 567,
     "section_index": 4,
     "task": "Summarize video on policy outcomes in multi-party democracies using Pomodoro technique"
   },
@@ -8741,11 +8601,6 @@
   },
   {
     "plan_index": 575,
-    "section_index": 5,
-    "task": "Create Monday mind map from notes and summaries"
-  },
-  {
-    "plan_index": 575,
     "section_index": 6,
     "task": "Quickly review flashcards and summaries (30 minutes)"
   },
@@ -8898,16 +8753,6 @@
     "plan_index": 583,
     "section_index": 2,
     "task": "Understand PCA and t-SNE algorithms through video explanation"
-  },
-  {
-    "plan_index": 583,
-    "section_index": 3,
-    "task": "Implement PCA and t-SNE on a high-dimensional dataset (Thursday)"
-  },
-  {
-    "plan_index": 583,
-    "section_index": 4,
-    "task": "Review project work from Thursday, identify struggles, revisit materials, use flashcards, take quiz"
   },
   {
     "plan_index": 583,
