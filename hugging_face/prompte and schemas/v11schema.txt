@@ -18,6 +18,7 @@
     "description": "",
     "is_repeatable": true,
     "repeat_pattern": ,
+    "gap_flag":False,
     "estimated_duration_minutes": {
         "min": 0,
         "max": 0
