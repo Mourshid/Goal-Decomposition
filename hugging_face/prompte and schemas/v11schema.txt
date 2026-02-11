@@ -2,7 +2,7 @@
     "goal": "",
     "goal_category": "one_time | habit",
     "goal_type": "",
-    "time_horizon": "",
+    "time_horizon": ,
     "description": "",
     "baseline": {
         "fixed_constraints": "",
@@ -17,7 +17,7 @@
     "task": "",
     "description": "",
     "is_repeatable": true,
-    "repeat_pattern": "daily | weekly | custom | none",
+    "repeat_pattern": ,
     "estimated_duration_minutes": {
         "min": 0,
         "max": 0

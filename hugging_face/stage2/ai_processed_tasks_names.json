@@ -1,5 +1,90 @@
 [
   {
+    "plan_index": 39,
+    "section_index": 0,
+    "task": "Study anthropogenic impacts on marine biogeochemical cycles via video and flashcards"
+  },
+  {
+    "plan_index": 86,
+    "section_index": 1,
+    "task": "Review notes and memorize microplastic pollution terms using flashcards"
+  },
+  {
+    "plan_index": 120,
+    "section_index": 5,
+    "task": "Take unit practice quiz and review weak areas"
+  },
+  {
+    "plan_index": 252,
+    "section_index": 2,
+    "task": "Take multiple-choice quizzes and review weak areas using notes"
+  },
+  {
+    "plan_index": 252,
+    "section_index": 4,
+    "task": "Review key terms and challenging concepts using spaced repetition flashcards"
+  },
+  {
+    "plan_index": 303,
+    "section_index": 1,
+    "task": "Create and review flashcards for intertextuality, hybridity, and postcolonialism"
+  },
+  {
+    "plan_index": 308,
+    "section_index": 6,
+    "task": "Take progress quiz and focus on remaining difficult areas"
+  },
+  {
+    "plan_index": 335,
+    "section_index": 1,
+    "task": "Review notes and practice Andalusian Spanish flashcards with spaced repetition"
+  },
+  {
+    "plan_index": 363,
+    "section_index": 2,
+    "task": "Take quiz on ecological and socioeconomic impacts of urbanization"
+  },
+  {
+    "plan_index": 398,
+    "section_index": 2,
+    "task": "Watch photography lighting video, take notes, and complete quiz"
+  },
+  {
+    "plan_index": 414,
+    "section_index": 2,
+    "task": "Take quiz on genetic drift, gene flow, and natural selection"
+  },
+  {
+    "plan_index": 453,
+    "section_index": 2,
+    "task": "Practice onomatopoeia usage via sentences, quizzes, and flashcards"
+  },
+  {
+    "plan_index": 484,
+    "section_index": 0,
+    "task": "Watch video on subjunctive tenses and review vocabulary flashcards"
+  },
+  {
+    "plan_index": 505,
+    "section_index": 2,
+    "task": "Watch Southeast Asian megacities video, summarize cases, and take quiz"
+  },
+  {
+    "plan_index": 555,
+    "section_index": 2,
+    "task": "Complete practice quizzes and review flashcards on challenging concepts"
+  },
+  {
+    "plan_index": 571,
+    "section_index": 1,
+    "task": "Create flashcards and watch video on modern state system development"
+  },
+  {
+    "plan_index": 589,
+    "section_index": 2,
+    "task": "Take practice quizzes and review flashcards using active recall"
+  },
+  {
     "plan_index": 3,
     "section_index": 1,
     "task": "Read article on microplastics, review flashcards, and take quiz"
@@ -896,11 +981,6 @@
   },
   {
     "plan_index": 39,
-    "section_index": 0,
-    "task": "Morning study: Anthropogenic impacts on marine biogeochemical cycles (Pomodoro technique: Video + Flashcards)"
-  },
-  {
-    "plan_index": 39,
     "section_index": 1,
     "task": "Review coral reef ecosystems with spaced repetition: watch video, use flashcards, take quiz"
   },
@@ -1516,11 +1596,6 @@
   },
   {
     "plan_index": 86,
-    "section_index": 1,
-    "task": "Review morning session notes, memorize microplastic pollution terms (30 minutes)"
-  },
-  {
-    "plan_index": 86,
     "section_index": 2,
     "task": "Watch video on microplastics' impact on marine food webs (Pomodoro)"
   },
@@ -2093,11 +2168,6 @@
     "plan_index": 120,
     "section_index": 4,
     "task": "Review mind map and notes, use flashcards, practice active recall"
-  },
-  {
-    "plan_index": 120,
-    "section_index": 5,
-    "task": "Practice quiz on unit in morning (1-2 hours)"
   },
   {
     "plan_index": 120,
@@ -4041,16 +4111,6 @@
   },
   {
     "plan_index": 252,
-    "section_index": 2,
-    "task": "Test knowledge with evening quizzes and review weak areas"
-  },
-  {
-    "plan_index": 252,
-    "section_index": 4,
-    "task": "Review key terms with flashcards in the afternoon"
-  },
-  {
-    "plan_index": 252,
     "section_index": 5,
     "task": "Take final quizzes, review mistakes, and review key points"
   },
@@ -4736,11 +4796,6 @@
   },
   {
     "plan_index": 303,
-    "section_index": 1,
-    "task": "Review morning session notes, create flashcards, use spaced repetition, take quiz"
-  },
-  {
-    "plan_index": 303,
     "section_index": 2,
     "task": "Summarize and identify intertextuality examples using Cornell notes from a scholarly article or textbook chapter on postcolonial narratives"
   },
@@ -4838,11 +4893,6 @@
     "plan_index": 308,
     "section_index": 5,
     "task": "Practice subjunctive sentences about cultural traditions (30 minutes)"
-  },
-  {
-    "plan_index": 308,
-    "section_index": 6,
-    "task": "Evening: Take 45-minute quiz on areas of difficulty"
   },
   {
     "plan_index": 308,
@@ -5371,11 +5421,6 @@
   },
   {
     "plan_index": 335,
-    "section_index": 1,
-    "task": "Review morning notes, practice Andalusian Spanish with flashcards, take quiz"
-  },
-  {
-    "plan_index": 335,
     "section_index": 2,
     "task": "Study Rioplatense Spanish features: Watch video, take notes, compare with Andalusian"
   },
@@ -5756,11 +5801,6 @@
   },
   {
     "plan_index": 363,
-    "section_index": 2,
-    "task": "Evening: Take 45-minute urbanization quiz on ecological and socioeconomic impacts on coastal wetlands"
-  },
-  {
-    "plan_index": 363,
     "section_index": 3,
     "task": "Review challenging notes and flashcards (20 minutes)"
   },
@@ -6050,11 +6090,6 @@
     "task": "Review notes, create flashcards for depth of field and lighting, practice with camera"
   },
   {
-    "plan_index": 398,
-    "section_index": 2,
-    "task": "Take notes on evening video, compare techniques, take quiz"
-  },
-  {
     "plan_index": 399,
     "section_index": 0,
     "task": "Study typography history: 25-minute Pomodoro sessions, flashcard review"
@@ -6258,11 +6293,6 @@
     "plan_index": 414,
     "section_index": 1,
     "task": "Study Hardy-Weinberg equilibrium with flashcards (30 minutes, then 10-minute break)"
-  },
-  {
-    "plan_index": 414,
-    "section_index": 2,
-    "task": "Review genetic concepts with evening quiz"
   },
   {
     "plan_index": 414,
@@ -6715,11 +6745,6 @@
     "task": "Create Japanese onomatopoeia timeline after lunch"
   },
   {
-    "plan_index": 453,
-    "section_index": 2,
-    "task": "Evening study: Active recall, onomatopoeia practice, quizzes, flashcards, review, relaxation"
-  },
-  {
     "plan_index": 455,
     "section_index": 0,
     "task": "Study 19th century France transformations (Pomodoro)"
@@ -7136,11 +7161,6 @@
   },
   {
     "plan_index": 484,
-    "section_index": 0,
-    "task": "Evening Subjunctive: Watch Video and Review Flashcards (Pomodoro Technique)"
-  },
-  {
-    "plan_index": 484,
     "section_index": 1,
     "task": "Review subjunctive tenses with flashcards and quiz (1 hour)"
   },
@@ -7473,11 +7493,6 @@
     "plan_index": 505,
     "section_index": 1,
     "task": "Review notes, create flashcards for urbanization terms, use spaced repetition, take quiz"
-  },
-  {
-    "plan_index": 505,
-    "section_index": 2,
-    "task": "Evening study: Watch megacity case studies, write summaries, take quiz"
   },
   {
     "plan_index": 506,
@@ -8275,11 +8290,6 @@
     "task": "Review novels' summaries and analyses, focus on identity and societal issues, use spaced repetition"
   },
   {
-    "plan_index": 555,
-    "section_index": 2,
-    "task": "Evening: Practice quizzes, flashcards, and review notes"
-  },
-  {
     "plan_index": 557,
     "section_index": 1,
     "task": "Review political party flashcards for 1 hour with 5-minute breaks"
@@ -8453,11 +8463,6 @@
     "plan_index": 571,
     "section_index": 0,
     "task": "Study Peace of Westphalia: Take Notes (Pomodoro Technique)"
-  },
-  {
-    "plan_index": 571,
-    "section_index": 1,
-    "task": "Review morning notes, create flashcards, and watch video on modern state system development"
   },
   {
     "plan_index": 571,
@@ -8840,11 +8845,6 @@
     "task": "Review key Supreme Court cases for interstate commerce regulations using flashcards and spaced repetition"
   },
   {
-    "plan_index": 589,
-    "section_index": 2,
-    "task": "Evening: Consolidate knowledge with practice quizzes, review weaknesses, apply concepts, and review flashcards"
-  },
-  {
     "plan_index": 591,
     "section_index": 0,
     "task": "Watch and review Industrial Revolution video (Pomodoro technique)"
@@ -9003,5 +9003,275 @@
     "plan_index": 599,
     "section_index": 6,
     "task": "Review unit materials and take practice test"
+  },
+  {
+    "plan_index": 203,
+    "section_index": 0,
+    "task": "Watch introductory video on sleep stages and neurobiological mechanisms"
+  },
+  {
+    "plan_index": 203,
+    "section_index": 1,
+    "task": "Create and review flashcards for key sleep cycle terms"
+  },
+  {
+    "plan_index": 203,
+    "section_index": 2,
+    "task": "Watch video on sleep functions and theories and take notes"
+  },
+  {
+    "plan_index": 203,
+    "section_index": 3,
+    "task": "Review notes, flashcards, and take sleep concept quiz"
+  },
+  {
+    "plan_index": 203,
+    "section_index": 4,
+    "task": "Review key term flashcards on sleep concepts"
+  },
+  {
+    "plan_index": 203,
+    "section_index": 5,
+    "task": "Watch video on neurobiological basis of dreaming and summarize"
+  },
+  {
+    "plan_index": 203,
+    "section_index": 6,
+    "task": "Review materials and take neurobiology of sleep quiz"
+  },
+  {
+    "plan_index": 203,
+    "section_index": 7,
+    "task": "Review all notes and watch unit summary video"
+  },
+  {
+    "plan_index": 203,
+    "section_index": 8,
+    "task": "Take comprehensive practice test for Unit 5"
+  },
+  {
+    "plan_index": 304,
+    "section_index": 0,
+    "task": "Watch videos on SMDP, PR, and Mixed Electoral Systems"
+  },
+  {
+    "plan_index": 304,
+    "section_index": 1,
+    "task": "Review electoral system differences via flashcards and quiz"
+  },
+  {
+    "plan_index": 304,
+    "section_index": 2,
+    "task": "Watch videos on electoral systems in UK, Germany, and Mexico"
+  },
+  {
+    "plan_index": 304,
+    "section_index": 3,
+    "task": "Create comparison chart and mind map of electoral systems"
+  },
+  {
+    "plan_index": 304,
+    "section_index": 4,
+    "task": "Review party dynamics impact via flashcards and quiz"
+  },
+  {
+    "plan_index": 304,
+    "section_index": 5,
+    "task": "Study electoral system impact on voter behavior via videos"
+  },
+  {
+    "plan_index": 304,
+    "section_index": 6,
+    "task": "Review material and take comprehensive electoral systems quiz"
+  },
+  {
+    "plan_index": 304,
+    "section_index": 7,
+    "task": "Conduct light review of notes and flashcards"
+  },
+  {
+    "plan_index": 304,
+    "section_index": 8,
+    "task": "Simulate exam conditions with practice questions and past papers"
+  },
+  {
+    "plan_index": 304,
+    "section_index": 9,
+    "task": "Complete final review and take comprehensive quiz"
+  },
+  {
+    "plan_index": 304,
+    "section_index": 10,
+    "task": "Rest and perform optional light review"
+  },
+  {
+    "plan_index": 509,
+    "section_index": 0,
+    "task": "Review fundamental integration concepts and take notes"
+  },
+  {
+    "plan_index": 509,
+    "section_index": 1,
+    "task": "Practice partial fractions and improper integrals techniques"
+  },
+  {
+    "plan_index": 509,
+    "section_index": 2,
+    "task": "Review Fundamental Theorem of Calculus physics applications"
+  },
+  {
+    "plan_index": 509,
+    "section_index": 3,
+    "task": "Solve integration problems involving physics applications"
+  },
+  {
+    "plan_index": 509,
+    "section_index": 4,
+    "task": "Review topics via flashcards and take practice quiz"
+  },
+  {
+    "plan_index": 509,
+    "section_index": 5,
+    "task": "Study weak areas and practice solving problems"
+  },
+  {
+    "plan_index": 509,
+    "section_index": 6,
+    "task": "Take comprehensive Unit 7 practice test"
+  },
+  {
+    "plan_index": 509,
+    "section_index": 7,
+    "task": "Review practice test results and correct mistakes"
+  },
+  {
+    "plan_index": 509,
+    "section_index": 8,
+    "task": "Continue reviewing and practicing problems"
+  },
+  {
+    "plan_index": 509,
+    "section_index": 9,
+    "task": "Take additional practice test and review weak areas"
+  },
+  {
+    "plan_index": 509,
+    "section_index": 10,
+    "task": "Review all topics using flashcards and quizzes"
+  },
+  {
+    "plan_index": 509,
+    "section_index": 11,
+    "task": "Rest and lightly review notes"
+  },
+  {
+    "plan_index": 560,
+    "section_index": 0,
+    "task": "Watch video on industrialization's impact on colonial policies"
+  },
+  {
+    "plan_index": 560,
+    "section_index": 1,
+    "task": "Read and summarize economic changes from industrialization"
+  },
+  {
+    "plan_index": 560,
+    "section_index": 2,
+    "task": "Compare industrialization impact in India, Africa, and Southeast Asia"
+  },
+  {
+    "plan_index": 560,
+    "section_index": 3,
+    "task": "Review political changes and colonial policies via documentary"
+  },
+  {
+    "plan_index": 560,
+    "section_index": 4,
+    "task": "Create mind map on social impact of industrialization"
+  },
+  {
+    "plan_index": 560,
+    "section_index": 5,
+    "task": "Review material via flashcards and take practice quiz"
+  },
+  {
+    "plan_index": 560,
+    "section_index": 6,
+    "task": "Study resistance movements and create timeline of events"
+  },
+  {
+    "plan_index": 560,
+    "section_index": 7,
+    "task": "Study environmental impact of industrialization and create cause-and-effect chart"
+  },
+  {
+    "plan_index": 560,
+    "section_index": 8,
+    "task": "Review material via flashcards and take practice quiz"
+  },
+  {
+    "plan_index": 560,
+    "section_index": 9,
+    "task": "Compare cultural changes in colonies using Venn diagram"
+  },
+  {
+    "plan_index": 560,
+    "section_index": 10,
+    "task": "Review material via flashcards and take practice quiz"
+  },
+  {
+    "plan_index": 560,
+    "section_index": 11,
+    "task": "Read about long-term industrialization consequences and write summary essay"
+  },
+  {
+    "plan_index": 560,
+    "section_index": 12,
+    "task": "Review material via flashcards and take practice quiz"
+  },
+  {
+    "plan_index": 560,
+    "section_index": 13,
+    "task": "Conduct final review and take final practice test"
+  },
+  {
+    "plan_index": 596,
+    "section_index": 0,
+    "task": "Watch video on intersectionality and identity themes and review flashcards"
+  },
+  {
+    "plan_index": 596,
+    "section_index": 1,
+    "task": "Read summaries of key texts and review flashcards"
+  },
+  {
+    "plan_index": 596,
+    "section_index": 2,
+    "task": "Read full text using active strategies and watch video analysis"
+  },
+  {
+    "plan_index": 596,
+    "section_index": 3,
+    "task": "Write summary and analysis of text and review flashcards"
+  },
+  {
+    "plan_index": 596,
+    "section_index": 4,
+    "task": "Discuss text with group and watch video on intersectionality"
+  },
+  {
+    "plan_index": 596,
+    "section_index": 5,
+    "task": "Perform light review of notes and flashcards"
+  },
+  {
+    "plan_index": 596,
+    "section_index": 6,
+    "task": "Read additional full text and watch video analysis"
+  },
+  {
+    "plan_index": 596,
+    "section_index": 7,
+    "task": "Review material, take practice quiz, and write summary"
   }
 ]
