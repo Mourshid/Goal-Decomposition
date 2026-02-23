@@ -1,0 +1,3898 @@
+{
+  "goal": "CFA Level I Exam - Core Content Mastery",
+  "goal_category": "one_time",
+  "goal_type": "professional_certification",
+  "time_horizon": "150",
+  "description": "Complete the curriculum and practice questions for the CFA Level I exam, focusing on high-weight areas like Ethics and Financial Statement Analysis.",
+  "baseline": {
+    "fixed_constraints": "Working full-time 40 hours per week; study limited to evenings and weekends.",
+    "physical_constraints": "Suffer from eye fatigue; requires Blue Light filters and 20-20-20 rule breaks.",
+    "non_negotiables": "Must achieve >70% in all Ethics practice modules before taking the final mock."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Register and download Learning Ecosystem",
+      "description": "Sign up for the exam and install the CFA Institute candidate app and curriculum files.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 20,
+        "max": 30
+      },
+      "success_criteria": "Registration confirmation received and dashboard is accessible.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Ethics and Professional Standards Module",
+      "description": "Read the Standards of Professional Conduct and complete the 200 associated practice questions.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 240,
+        "max": 360
+      },
+      "success_criteria": "Passed all Ethics quiz sets with an aggregate score of 70%.",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 3,
+      "task": "Quantitative Methods Review",
+      "description": "Master Time Value of Money (TVM) and probability distributions using the financial calculator.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 180,
+        "max": 300
+      },
+      "success_criteria": "Correctly solved 10 TVM word problems in a row using the TI BA II Plus.",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 4,
+      "task": "Financial Statement Analysis (FSA) Deep Dive",
+      "description": "Review Income Statements, Balance Sheets, and Cash Flow analysis under IFRS and US GAAP.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 300,
+        "max": 480
+      },
+      "success_criteria": "Able to derive a Cash Flow Statement from a Balance Sheet without prompts.",
+      "fallback_version": "",
+      "dependencies": "3"
+    },
+    {
+      "index": 5,
+      "task": "Fixed Income and Equity Investments",
+      "description": "Study bond valuation, duration, and equity valuation models (DDM, Multipliers).",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 150,
+        "max": 240
+      },
+      "success_criteria": "Completed the End-of-Chapter questions for both sections with >65% accuracy.",
+      "fallback_version": "",
+      "dependencies": "3"
+    },
+    {
+      "index": 6,
+      "task": "Full-Length Mock Exam A",
+      "description": "Take the first official CFA Institute mock exam under timed, proctored-style conditions.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 270,
+        "max": 270
+      },
+      "success_criteria": "Exam completed and score report generated.",
+      "fallback_version": "",
+      "dependencies": "2, 4, 5"
+    }
+  ]
+}
+
+
+{
+  "goal": "Daily Professional Portfolio Maintenance",
+  "goal_category": "habit",
+  "goal_type": "career_development",
+  "time_horizon": "60",
+  "description": "A daily habit of documenting technical work or learning to maintain an up-to-date public-facing portfolio (GitHub/Personal Site).",
+  "baseline": {
+    "fixed_constraints": "Must be done after the work day ends at 5:30 PM.",
+    "physical_constraints": "None.",
+    "non_negotiables": "No sensitive employer-owned code may be uploaded."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "warning"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Select today's 'Learning Artifact'",
+      "description": "Identify one code snippet, diagram, or paragraph written today that represents a lesson learned.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 5,
+        "max": 10
+      },
+      "success_criteria": "One file or concept is identified and isolated for documentation.",
+      "fallback_version": "Use a generic placeholder like 'Refined CSS skills' if no specific artifact exists.",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Sanitize and Anonymize",
+      "description": "Remove any private API keys, company names, or internal proprietary logic from the artifact.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 10,
+        "max": 15
+      },
+      "success_criteria": "Code is verified to be safe for public release.",
+      "fallback_version": "Write a text-only summary of the concept without code.",
+      "dependencies": ""
+    },
+    {
+      "index": 3,
+      "task": "Commit and push to repository",
+      "description": "Add the artifact to a public 'Today-I-Learned' or 'Project-Scratchpad' repo with a clear README note.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 5,
+        "max": 10
+      },
+      "success_criteria": "GitHub contribution graph shows a green square for the day.",
+      "fallback_version": "Save the file to a local 'Pending' folder and try again tomorrow.",
+      "dependencies": ""
+    }
+  ]
+}
+{
+  "goal": "Obtain Real Estate Salesperson License",
+  "goal_category": "one_time",
+  "goal_type": "professional_licensing",
+  "time_horizon": "45",
+  "description": "Complete the 75-hour pre-license course, pass the course final, and successfully clear the state licensing examination.",
+  "baseline": {
+    "fixed_constraints": "Course must be completed within a 90-day window from enrollment.",
+    "physical_constraints": "Requires stable internet for proctored online exams.",
+    "non_negotiables": "Must achieve a minimum score of 75% on all practice quizzes before the state exam."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Complete Property Ownership and Land Use modules",
+      "description": "Watch all video lectures and read the text for Chapters 1-4 of the pre-license curriculum.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 180,
+        "max": 240
+      },
+      "success_criteria": "Course dashboard shows modules 1-4 as 100% complete.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Create 'Legal Descriptions' cheat sheet",
+      "description": "Draft a visual guide explaining Metes and Bounds, Lot and Block, and Government Survey systems.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 30,
+        "max": 45
+      },
+      "success_criteria": "A single-page diagram correctly identifies all three land description types.",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 3,
+      "task": "Complete Valuation and Market Analysis modules",
+      "description": "Review the Sales Comparison, Cost, and Income approaches to appraisal.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 120,
+        "max": 150
+      },
+      "success_criteria": "Completion of the module quiz with a passing score.",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 4,
+      "task": "Real Estate Math Drill",
+      "description": "Solve 20 problems involving commission splits, proration, and loan-to-value ratios.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "At least 16 out of 20 math problems solved correctly on the first attempt.",
+      "fallback_version": "",
+      "dependencies": "3"
+    },
+    {
+      "index": 5,
+      "task": "Take Course Final Exam",
+      "description": "Complete the 100-question proctored course final exam to receive the certificate of completion.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 120,
+        "max": 180
+      },
+      "success_criteria": "Official digital certificate generated and saved to 'Certifications' folder.",
+      "fallback_version": "",
+      "dependencies": "1, 3, 4"
+    },
+    {
+      "index": 6,
+      "task": "Schedule State License Exam",
+      "description": "Submit the course certificate to the state board and book the earliest available testing slot at a PSI center.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 15,
+        "max": 30
+      },
+      "success_criteria": "Exam appointment confirmed and added to the calendar.",
+      "fallback_version": "",
+      "dependencies": "5"
+    }
+  ]
+}
+
+
+{
+  "goal": "Daily SAT Reading Comprehension Practice",
+  "goal_category": "habit",
+  "goal_type": "exam_prep",
+  "time_horizon": "60",
+  "description": "Build stamina and accuracy for the Evidence-Based Reading section of the SAT through consistent daily passage analysis.",
+  "baseline": {
+    "fixed_constraints": "Must be done at a desk using a physical pencil for marking.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must set a timer for every passage to track speed."
+  },
+  "failure_policy": {
+    "missed_task_handling": "downgrade",
+    "habit_miss_interpretation": "warning"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Passage Annotation",
+      "description": "Read one SAT-style passage (History or Science) and underline the main claim and three pieces of supporting evidence.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 10,
+        "max": 12
+      },
+      "success_criteria": "The text is physically marked with clear indicators of the thesis and evidence.",
+      "fallback_version": "Read the passage and write a one-sentence summary without underlining.",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Question Drill",
+      "description": "Answer the 10-11 questions associated with the passage under timed conditions.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 8,
+        "max": 10
+      },
+      "success_criteria": "All questions are answered before the timer expires.",
+      "fallback_version": "Answer only 5 questions with no timer.",
+      "dependencies": ""
+    },
+    {
+      "index": 3,
+      "task": "Error Analysis",
+      "description": "Check answers and for every mistake, identify if it was a 'Evidence' error, 'Vocabulary in Context' error, or 'Main Idea' error.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 5,
+        "max": 10
+      },
+      "success_criteria": "Every incorrect answer has a specific error category assigned in the study log.",
+      "fallback_version": "Read the correct answer explanations without logging the category.",
+      "dependencies": ""
+    }
+  ]
+}
+
+
+{
+  "goal": "Pass the NCLEX-RN Examination",
+  "goal_category": "one_time",
+  "goal_type": "nursing_certification",
+  "time_horizon": "90",
+  "description": "Comprehensive review of nursing principles, pharmacology, and clinical judgment to obtain a Registered Nurse license.",
+  "baseline": {
+    "fixed_constraints": "Must study around a part-time clinical rotation schedule.",
+    "physical_constraints": "Requires a quiet space to practice 'Next Generation NCLEX' (NGN) case studies.",
+    "non_negotiables": "Must complete the entire Kaplan or UWorld question bank."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Physiological Integrity: Pharmacology Review",
+      "description": "Study major drug classes, side effects, and nursing considerations for cardiovascular and endocrine medications.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 120,
+        "max": 180
+      },
+      "success_criteria": "A drug reference sheet for the top 50 NCLEX drugs is created.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Safe and Effective Care: Management of Care",
+      "description": "Review principles of delegation, prioritization, and informed consent.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 90,
+        "max": 120
+      },
+      "success_criteria": "Completed 50 practice questions on delegation with >75% accuracy.",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 3,
+      "task": "NGN Case Study Practice",
+      "description": "Work through 5 'Next Generation' unfolding case studies focusing on clinical judgment.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "All 5 case studies are submitted and rationale reviewed.",
+      "fallback_version": "",
+      "dependencies": "2"
+    },
+    {
+      "index": 4,
+      "task": "Psychosocial Integrity and Health Promotion",
+      "description": "Review therapeutic communication techniques and developmental stages (Erikson/Piaget).",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "Score of >80% on the Psychosocial integrated quiz.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 5,
+      "task": "Full-length CAT Simulation",
+      "description": "Take a Computerized Adaptive Testing (CAT) mock exam that shuts off between 75 and 145 questions.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 150,
+        "max": 300
+      },
+      "success_criteria": "Mock exam passed with a 'High' probability of passing the actual NCLEX.",
+      "fallback_version": "",
+      "dependencies": "1, 2, 3, 4"
+    }
+  ]
+}
+{
+  "goal": "Daily 20-minute 'Mental Priming' for Study",
+  "goal_category": "habit",
+  "goal_type": "cognitive_performance",
+  "time_horizon": "30",
+  "description": "Establish a consistent pre-study routine to reduce cognitive friction and transition into a state of deep focus.",
+  "baseline": {
+    "fixed_constraints": "Must be performed immediately before the first study session of the day.",
+    "physical_constraints": "None.",
+    "non_negotiables": "No digital devices or music allowed during the priming sequence."
+  },
+  "failure_policy": {
+    "missed_task_handling": "downgrade",
+    "habit_miss_interpretation": "warning"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Workspace Reset",
+      "description": "Physically clear the desk of all items not related to the current subject.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 2,
+        "max": 5
+      },
+      "success_criteria": "The desk surface is clear and the relevant textbook/laptop is the only item present.",
+      "fallback_version": "Just move one distracting item off the desk.",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Physiological Grounding",
+      "description": "Perform 2 minutes of box breathing (4s in, 4s hold, 4s out, 4s hold) to lower heart rate.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 2,
+        "max": 3
+      },
+      "success_criteria": "Completion of at least 8 full breath cycles.",
+      "fallback_version": "Take 3 deep, slow breaths.",
+      "dependencies": ""
+    },
+    {
+      "index": 3,
+      "task": "Objective Visualization",
+      "description": "Handwrite one specific goal for the upcoming study block and the primary benefit of achieving it.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 3,
+        "max": 5
+      },
+      "success_criteria": "A single sentence exists on a sticky note (e.g., 'Master 5 formulas to feel confident for Friday').",
+      "fallback_version": "Mentally state the goal out loud.",
+      "dependencies": ""
+    },
+    {
+      "index": 4,
+      "task": "Pre-Study Review",
+      "description": "Read the table of contents or summary of the previous session to activate relevant schemas.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 5,
+        "max": 10
+      },
+      "success_criteria": "Able to recall the last major topic studied without looking at notes.",
+      "fallback_version": "Read only the titles of the last 3 pages studied.",
+      "dependencies": ""
+    }
+  ]
+}
+{
+  "goal": "Master the 'Polya Method' for Mathematical Problem Solving",
+  "goal_category": "one_time",
+  "goal_type": "skill_acquisition",
+  "time_horizon": "14",
+  "description": "Internalize George Polya's 4-step problem-solving framework (Understand, Plan, Execute, Look Back) to tackle difficult non-standard math problems.",
+  "baseline": {
+    "fixed_constraints": "Must apply the method to at least 3 problems per session.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must write out the 'Plan' step explicitly in English before writing any equations."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Study the 4-Step Framework",
+      "description": "Read the summary of Polya's 'How to Solve It' and memorize the four phases: Understand the Problem, Devise a Plan, Carry out the Plan, Look Back.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 45,
+        "max": 60
+      },
+      "success_criteria": "Able to recite the 4 steps and 3 heuristic questions for each step (e.g., 'Have you seen it before?').",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Phase 1 Drill: 'Understand the Problem'",
+      "description": "Take 5 complex word problems and ONLY write down the 'Unknown', the 'Data', and the 'Condition'. Do not solve them.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 30,
+        "max": 45
+      },
+      "success_criteria": "5 problems have their variables and constraints clearly listed.",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 3,
+      "task": "Phase 2 Drill: 'Devise a Plan'",
+      "description": "For the same 5 problems, write down the strategy name (e.g., 'Draw a Figure', 'Work Backwards', 'Solve a Simpler Problem') to be used.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 45,
+        "max": 60
+      },
+      "success_criteria": "A clear strategy is identified for all 5 problems.",
+      "fallback_version": "",
+      "dependencies": "2"
+    },
+    {
+      "index": 4,
+      "task": "Full Cycle Application (Easy)",
+      "description": "Solve 3 'easy' difficulty competition problems using the full written framework.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "All 3 problems solved with written evidence of all 4 Polya steps.",
+      "fallback_version": "",
+      "dependencies": "3"
+    },
+    {
+      "index": 5,
+      "task": "Phase 4 Drill: 'Look Back'",
+      "description": "Take a previously solved problem and find a second, different method to derive the solution.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 45,
+        "max": 60
+      },
+      "success_criteria": "An alternative valid solution path is documented.",
+      "fallback_version": "",
+      "dependencies": "4"
+    }
+  ]
+}
+
+{
+  "goal": "Daily Chess Tactics for Pattern Recognition",
+  "goal_category": "habit",
+  "goal_type": "cognitive_training",
+  "time_horizon": "60",
+  "description": "Improve calculation speed and tactical awareness by solving specific chess puzzles daily.",
+  "baseline": {
+    "fixed_constraints": "Must use a 'real board' mode or hide the solution button.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must calculate the full variation to checkmate/material gain before moving the first piece."
+  },
+  "failure_policy": {
+    "missed_task_handling": "downgrade",
+    "habit_miss_interpretation": "warning"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Warm-up: Mate in 1",
+      "description": "Solve 5 simple 'Mate in 1' puzzles as fast as possible to prime the brain.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 2,
+        "max": 3
+      },
+      "success_criteria": "5 puzzles solved correctly in under 3 minutes total.",
+      "fallback_version": "Solve 2 puzzles.",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Deep Calculation Puzzle",
+      "description": "Open one 'Hard' difficulty puzzle. Spend up to 10 minutes calculating the tree of variations without moving pieces.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 10,
+        "max": 15
+      },
+      "success_criteria": "The correct move sequence is visualized and then executed successfully.",
+      "fallback_version": "Use a 'Medium' puzzle and calculate only 2 moves deep.",
+      "dependencies": ""
+    },
+    {
+      "index": 3,
+      "task": "Engine Check and Analysis",
+      "description": "Review the 'Hard' puzzle with the computer engine to see if any defensive resources were missed.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 3,
+        "max": 5
+      },
+      "success_criteria": "One 'what if' line is explored and understood.",
+      "fallback_version": "Just read the solution text.",
+      "dependencies": ""
+    },
+    {
+      "index": 4,
+      "task": "Pattern Naming",
+      "description": "Identify the tactical motif used in the puzzle (e.g., 'Pin', 'Skewer', 'Removing the Defender') and write it down.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 1,
+        "max": 2
+      },
+      "success_criteria": "The correct tactical term is logged.",
+      "fallback_version": "Select the tag from a dropdown list.",
+      "dependencies": ""
+    }
+  ]
+}
+{
+  "goal": "Resolve persistent high-latency issue in web application using Five Whys",
+  "goal_category": "one_time",
+  "goal_type": "technical_problem_solving",
+  "time_horizon": "4",
+  "description": "Systematically identify and fix the root cause of 500ms+ database query delays during peak traffic hours.",
+  "baseline": {
+    "fixed_constraints": "Must use existing server resources; no budget for hardware upgrades.",
+    "physical_constraints": "None.",
+    "non_negotiables": "The fix must be tested in a staging environment before production deployment."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Extract and filter performance logs",
+      "description": "Query the last 24 hours of logs to isolate specific API endpoints with latency exceeding 500ms.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 30,
+        "max": 45
+      },
+      "success_criteria": "A list of the top 3 slowest endpoints is exported to a CSV file.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Execute Five Whys analysis",
+      "description": "For the slowest endpoint, recursively ask 'Why?' until the underlying infrastructure or logic flaw is identified.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 45,
+        "max": 60
+      },
+      "success_criteria": "A written document exists tracing the failure from the surface symptom to a root cause (e.g., missing index).",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 3,
+      "task": "Develop a fix hypothesis",
+      "description": "Write a specific technical solution based on the root cause identified (e.g., adding a composite index or refactoring a join).",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 20,
+        "max": 30
+      },
+      "success_criteria": "A code diff or database migration script is prepared.",
+      "fallback_version": "",
+      "dependencies": "2"
+    },
+    {
+      "index": 4,
+      "task": "Validate in staging environment",
+      "description": "Apply the fix to the staging database and run a load test to simulate peak traffic.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "Latency on the target endpoint remains under 100ms during the 15-minute load test.",
+      "fallback_version": "",
+      "dependencies": "3"
+    },
+    {
+      "index": 5,
+      "task": "Deploy fix and monitor production",
+      "description": "Merge the fix to the production branch and monitor the latency dashboard for 1 hour.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 75
+      },
+      "success_criteria": "Production dashboard shows 95th percentile latency below 150ms.",
+      "fallback_version": "",
+      "dependencies": "4"
+    }
+  ]
+}
+
+{
+  "goal": "Daily 'Rubber Duck' code review habit",
+  "goal_category": "habit",
+  "goal_type": "problem_prevention",
+  "time_horizon": "30",
+  "description": "Perform a daily systematic verbal walkthrough of new code to identify logic flaws and edge cases before they become bugs.",
+  "baseline": {
+    "fixed_constraints": "Must be done at the start of the final hour of the workday.",
+    "physical_constraints": "Requires a quiet space where talking out loud is permitted.",
+    "non_negotiables": "Must physically explain the code to an inanimate object or teammate."
+  },
+  "failure_policy": {
+    "missed_task_handling": "downgrade",
+    "habit_miss_interpretation": "warning"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Select code block for review",
+      "description": "Choose a section of code written today that contains the most complex logic or conditional branching.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 5,
+        "max": 5
+      },
+      "success_criteria": "Target code is highlighted and open in the IDE.",
+      "fallback_version": "Select any single function from today's work.",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Line-by-line verbal explanation",
+      "description": "Explain out loud exactly what each line of code is doing and what the expected inputs/outputs are.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 10,
+        "max": 15
+      },
+      "success_criteria": "Completion of the verbal walkthrough from the start to the end of the block.",
+      "fallback_version": "Read the code silently while moving lips to maintain focus.",
+      "dependencies": ""
+    },
+    {
+      "index": 3,
+      "task": "Edge case interrogation",
+      "description": "Identify three potential inputs that could cause the code to fail (e.g., null values, empty strings, max integers).",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 5,
+        "max": 10
+      },
+      "success_criteria": "Three specific edge cases are noted in the code comments or a scratchpad.",
+      "fallback_version": "Identify only one common edge case like 'null value'.",
+      "dependencies": ""
+    }
+  ]
+}
+
+
+{
+  "goal": "Diagnose and repair a recurring basement drainage issue",
+  "goal_category": "one_time",
+  "goal_type": "home_maintenance",
+  "time_horizon": "10",
+  "description": "Systematically identify the cause of water pooling in the basement during heavy rain and implement a drainage solution.",
+  "baseline": {
+    "fixed_constraints": "Limited to hand tools and a basic wet-dry vacuum; no heavy excavation machinery.",
+    "physical_constraints": "Must work in a low-clearance crawl space.",
+    "non_negotiables": "No modifications allowed to the shared foundation wall with the neighbor."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Water source tracing",
+      "description": "Using a garden hose, spray water on the exterior grading and foundation to pinpoint exactly where water is infiltrating.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 45,
+        "max": 60
+      },
+      "success_criteria": "The exact entry point of the water is marked with chalk on the interior basement wall.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Gutter and downspout inspection",
+      "description": "Check all gutters for debris and ensure downspout extensions are directing water at least 6 feet away from the foundation.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 30,
+        "max": 45
+      },
+      "success_criteria": "Gutters are clear and water flows freely through the extensions away from the house.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 3,
+      "task": "Clear interior floor drain",
+      "description": "Use a plumbing snake to clear any sediment or blockages from the main basement floor drain.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 20,
+        "max": 40
+      },
+      "success_criteria": "A 5-gallon bucket of water poured into the drain disappears immediately without backing up.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 4,
+      "task": "Apply hydraulic cement",
+      "description": "Clean the area around the identified crack and pack it with hydraulic cement until flush with the wall.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 30,
+        "max": 60
+      },
+      "success_criteria": "The crack is sealed and the cement is hard to the touch.",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 5,
+      "task": "Grading adjustment",
+      "description": "Add 5 bags of topsoil to the exterior area near the leak, sloping the soil away from the foundation.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "A level placed on the soil shows a visible downward slope away from the house.",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 6,
+      "task": "Final verification test",
+      "description": "Re-simulate heavy rain with the garden hose for 15 minutes over the repaired area.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 15,
+        "max": 20
+      },
+      "success_criteria": "The interior basement wall remains dry to the touch throughout the test.",
+      "fallback_version": "",
+      "dependencies": "4, 5"
+    }
+  ]
+}
+
+
+{
+  "goal": "Daily first-principles thinking exercise",
+  "goal_category": "habit",
+  "goal_type": "cognitive_problem_solving",
+  "time_horizon": "30",
+  "description": "Deconstruct one complex societal or personal problem every day into its fundamental truths to develop original solutions.",
+  "baseline": {
+    "fixed_constraints": "Must be performed in a physical notebook to avoid digital distraction.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must identify at least three 'assumptions' that are usually taken for granted."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Select a 'Black Box' problem",
+      "description": "Identify a complex problem you usually accept at face value (e.g., 'Why is housing expensive?' or 'Why can't I wake up early?').",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 2,
+        "max": 5
+      },
+      "success_criteria": "The problem is written at the top of a blank page.",
+      "fallback_version": "Use a pre-written prompt from a 'Big Questions' list.",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Assumption auditing",
+      "description": "List all the things people 'know' to be true about this problem. Circle the ones that are not fundamental physical laws.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 10,
+        "max": 15
+      },
+      "success_criteria": "At least 3 circled assumptions are listed on the page.",
+      "fallback_version": "Identify only one assumption and move on.",
+      "dependencies": ""
+    },
+    {
+      "index": 3,
+      "task": "Atomic deconstruction",
+      "description": "Break the problem down to its 'atoms'—the undeniable truths (e.g., 'A house is made of wood, labor, and land').",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 10,
+        "max": 15
+      },
+      "success_criteria": "A list of 3-5 fundamental truths exists in the notebook.",
+      "fallback_version": "List only one fundamental truth.",
+      "dependencies": ""
+    },
+    {
+      "index": 4,
+      "task": "Solution synthesis",
+      "description": "Design a new solution based *only* on the fundamental truths, ignoring the previous assumptions.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 10,
+        "max": 20
+      },
+      "success_criteria": "A short paragraph describing a non-traditional solution is written down.",
+      "fallback_version": "Write down one reason why the current solution is inefficient.",
+      "dependencies": ""
+    }
+  ]
+}
+
+{
+  "goal": "Master the Fundamentals of Dynamic Programming (DP)",
+  "goal_category": "one_time",
+  "goal_type": "skill_acquisition",
+  "time_horizon": "21",
+  "description": "Transition from brute-force recursive thinking to optimized memoization and tabulation techniques for algorithmic problems.",
+  "baseline": {
+    "fixed_constraints": "Must use Python or Java for implementations.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must verify time and space complexity for every solution derived."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Visualize the State Tree",
+      "description": "Take the 'Fibonacci Sequence' and 'Climbing Stairs' problems and draw out the full recursive decision tree on paper.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 45,
+        "max": 60
+      },
+      "success_criteria": "A physical diagram showing redundant (overlapping) subproblems is created.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Implement Memoization (Top-Down)",
+      "description": "Solve 'House Robber' using a recursive function and a hash map/array to cache results.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "Solution passes all test cases and avoids Time Limit Exceeded (TLE) errors.",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 3,
+      "task": "Implement Tabulation (Bottom-Up)",
+      "description": "Refactor the 'House Robber' solution to use an iterative loop and a DP table, removing recursion.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 45,
+        "max": 60
+      },
+      "success_criteria": "Iterative solution works correctly with O(n) time and O(n) space.",
+      "fallback_version": "",
+      "dependencies": "2"
+    },
+    {
+      "index": 4,
+      "task": "Space Optimization",
+      "description": "Further optimize the Tabulation solution to reduce space complexity from O(n) to O(1) using variables.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 30,
+        "max": 45
+      },
+      "success_criteria": "Solution uses constant space.",
+      "fallback_version": "",
+      "dependencies": "3"
+    },
+    {
+      "index": 5,
+      "task": "2D Grid DP Problems",
+      "description": "Apply the framework to 'Unique Paths' or 'Minimum Path Sum'. define the state transition equation: dp[i][j] = ...",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 90,
+        "max": 120
+      },
+      "success_criteria": "Correct state transition equation written down and implemented.",
+      "fallback_version": "",
+      "dependencies": "3"
+    },
+    {
+      "index": 6,
+      "task": "The Knapsack Pattern",
+      "description": "Study the 0/1 Knapsack problem and implementing the 2D array solution.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 120,
+        "max": 150
+      },
+      "success_criteria": "Able to explain what each cell dp[i][w] represents in the matrix.",
+      "fallback_version": "",
+      "dependencies": "5"
+    }
+  ]
+}
+
+{
+  "goal": "Daily Manual Code Tracing (Dry Run)",
+  "goal_category": "habit",
+  "goal_type": "algorithmic_thinking",
+  "time_horizon": "30",
+  "description": "Develop the ability to simulate code execution mentally or on paper to improve debugging skills and logic verification.",
+  "baseline": {
+    "fixed_constraints": "Must use pen and paper; no computer execution allowed until the end.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must explicitly track the values of all variables at every iteration."
+  },
+  "failure_policy": {
+    "missed_task_handling": "downgrade",
+    "habit_miss_interpretation": "warning"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Select Tracing Candidate",
+      "description": "Find a code snippet (10-20 lines) involving nested loops, recursion, or pointer manipulation.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 2,
+        "max": 5
+      },
+      "success_criteria": "Snippet is visible on screen or printed out.",
+      "fallback_version": "Use a simple 'for loop' snippet.",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Setup Trace Table",
+      "description": "Draw a table with columns for the Line Number, Variable Names, and Output/Console.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 2,
+        "max": 5
+      },
+      "success_criteria": "Table is ready with all relevant variables listed.",
+      "fallback_version": "Just list variables on the side of the page.",
+      "dependencies": ""
+    },
+    {
+      "index": 3,
+      "task": "Step-by-Step Execution",
+      "description": "Manually 'run' the code line by line, updating the variable values in the table for a specific input set.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 10,
+        "max": 20
+      },
+      "success_criteria": "Table is filled out completely until the code terminates or crashes.",
+      "fallback_version": "Trace only the first 3 iterations of the loop.",
+      "dependencies": ""
+    },
+    {
+      "index": 4,
+      "task": "Verification",
+      "description": "Run the code on a computer with the same input and compare the actual final state with the trace table.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 2,
+        "max": 5
+      },
+      "success_criteria": "The manual trace matches the computer output exactly.",
+      "fallback_version": "Check against a provided solution walkthrough.",
+      "dependencies": ""
+    }
+  ]
+}
+
+
+{
+  "goal": "Build a Visual Pathfinding Tool",
+  "goal_category": "one_time",
+  "goal_type": "software_engineering",
+  "time_horizon": "21",
+  "description": "Create a web-based application that visualizes how Dijkstra’s and A* algorithms find the shortest path on a user-defined grid with obstacles.",
+  "baseline": {
+    "fixed_constraints": "Must use Vanilla JavaScript and HTML5 Canvas (no external game engines).",
+    "physical_constraints": "None.",
+    "non_negotiables": "The visualization must allow the user to place walls in real-time."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Grid system implementation",
+      "description": "Render a 2D grid of 'nodes' on a canvas and implement a coordinate system to track start and end points.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "A visible grid appears on screen where nodes change color when clicked.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Representing the Graph",
+      "description": "Write a function to transform the grid into an Adjacency List representation for the pathfinding logic.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 45,
+        "max": 60
+      },
+      "success_criteria": "Console log shows a valid object mapping each node to its walkable neighbors.",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 3,
+      "task": "Dijkstra’s Algorithm logic",
+      "description": "Implement the core Dijkstra’s logic using a priority queue to find the shortest path from start to end.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 120,
+        "max": 180
+      },
+      "success_criteria": "The algorithm correctly identifies the shortest distance values for all reachable nodes.",
+      "fallback_version": "",
+      "dependencies": "2"
+    },
+    {
+      "index": 4,
+      "task": "Visualizing search progress",
+      "description": "Modify the algorithm to trigger a 'draw' function for every node visited, creating an animation of the expansion.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "The screen shows nodes changing color sequentially as the algorithm 'searches'.",
+      "fallback_version": "",
+      "dependencies": "3"
+    },
+    {
+      "index": 5,
+      "task": "Heuristic implementation (A*)",
+      "description": "Implement the Manhattan Distance heuristic to upgrade the search to A* and compare it with Dijkstra’s.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "The A* search visits significantly fewer nodes than Dijkstra’s for the same path.",
+      "fallback_version": "",
+      "dependencies": "4"
+    }
+  ]
+}
+
+{
+  "goal": "Daily Algorithm Benchmarking",
+  "goal_category": "habit",
+  "goal_type": "performance_analysis",
+  "time_horizon": "30",
+  "description": "Establish a habit of analyzing and timing different algorithmic approaches to the same problem to develop an intuition for efficiency.",
+  "baseline": {
+    "fixed_constraints": "Must use the system time library for nanosecond precision.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Each session must compare at least two different time complexities (e.g., O(n²) vs O(n log n))."
+  },
+  "failure_policy": {
+    "missed_task_handling": "downgrade",
+    "habit_miss_interpretation": "warning"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Implementation of two variants",
+      "description": "Solve a single problem using a naive approach and an optimized approach (e.g., Bubble Sort vs Merge Sort).",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 30,
+        "max": 45
+      },
+      "success_criteria": "Two working functions exist that produce the same output for identical inputs.",
+      "fallback_version": "Use pre-written library functions to compare performance instead of writing from scratch.",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Execution timing",
+      "description": "Run both functions against a large input dataset (n=10,000+) and record the execution time in milliseconds.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 10,
+        "max": 15
+      },
+      "success_criteria": "A table exists showing the raw time data for both approaches.",
+      "fallback_version": "Run with a smaller dataset (n=500) if time is limited.",
+      "dependencies": ""
+    },
+    {
+      "index": 3,
+      "task": "Complexity validation",
+      "description": "Plot the results or calculate the growth rate to confirm that the empirical results match the theoretical Big O complexity.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 5,
+        "max": 10
+      },
+      "success_criteria": "A written note confirms why the optimized version was faster based on operation count.",
+      "fallback_version": "Mentally verify that the faster code had fewer nested loops.",
+      "dependencies": ""
+    }
+  ]
+}
+
+{
+  "goal": "Design a Scalable URL Shortener Service (System Design)",
+  "goal_category": "one_time",
+  "goal_type": "system_design",
+  "time_horizon": "10",
+  "description": "Create a high-level design document for a service like TinyURL that can handle 100 million new URLs per month.",
+  "baseline": {
+    "fixed_constraints": "Must identify specific database choices (SQL vs NoSQL).",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must include 'Back-of-the-Envelope' calculations for storage and bandwidth."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Requirements & Capacity Planning",
+      "description": "Calculate read/write QPS and total storage needed for 5 years based on 100M monthly writes and a 10:1 read/write ratio.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 45,
+        "max": 60
+      },
+      "success_criteria": "A spreadsheet exists with estimates for Traffic, Storage, Bandwidth, and Memory.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "API Interface Design",
+      "description": "Define the REST API endpoints (e.g., createShortURL, getLongURL) including input parameters and HTTP return codes.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 30,
+        "max": 45
+      },
+      "success_criteria": "API specification written in standard format (Swagger/OpenAPI style).",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 3,
+      "task": "Database Schema Design",
+      "description": "Design the data model to store the mapping (ShortURL, OriginalURL, CreationDate, Expiration) and justify the choice of database.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 45,
+        "max": 60
+      },
+      "success_criteria": "Schema diagram created; decision between SQL (Relational) and NoSQL (Key-Value) justified in writing.",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 4,
+      "task": "Hash Function Algorithm",
+      "description": "Choose a strategy for generating unique short keys (e.g., Base62 encoding of a counter vs. MD5 hash) and handle collisions.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "Algorithm logic is written out in pseudocode.",
+      "fallback_version": "",
+      "dependencies": "3"
+    },
+    {
+      "index": 5,
+      "task": "High-Level Architecture Diagram",
+      "description": "Draw the full system including Load Balancers, Web Servers, Database Shards, and Caching layers.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "A visual diagram showing the flow of a write request and a read request.",
+      "fallback_version": "",
+      "dependencies": "2, 3, 4"
+    }
+  ]
+}
+
+{
+  "goal": "Implement a Thread-Safe Bounded Blocking Queue",
+  "goal_category": "one_time",
+  "goal_type": "concurrent_programming",
+  "time_horizon": "7",
+  "description": "Write a custom implementation of a blocking queue (Producer-Consumer pattern) using low-level synchronization primitives to master concurrency.",
+  "baseline": {
+    "fixed_constraints": "Must use a language with explicit threading support (Java, C++, Go).",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must use Condition Variables (or wait/notify) rather than high-level library queues."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Define Interface and Storage",
+      "description": "Create the class structure with `enqueue` and `dequeue` methods and an underlying circular buffer or linked list.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 30,
+        "max": 45
+      },
+      "success_criteria": "Class compiles with the basic data structure (non-thread-safe version) working.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Implement Mutex/Locking",
+      "description": "Add a Mutex (or ReentrantLock) to protect the shared state during enqueue and dequeue operations.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 45,
+        "max": 60
+      },
+      "success_criteria": "Code runs without crashing, though blocking logic is not yet implemented.",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 3,
+      "task": "Implement Condition Variables",
+      "description": "Add logic to `wait()` when the queue is full (producer) or empty (consumer) and `signal()` when state changes.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "Logic correctly handles the 'queue full' and 'queue empty' edge cases.",
+      "fallback_version": "",
+      "dependencies": "2"
+    },
+    {
+      "index": 4,
+      "task": "Create Multi-threaded Test Harness",
+      "description": "Write a test script that spawns 5 producer threads and 5 consumer threads to stress-test the queue.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "Test runs to completion without deadlocks or race conditions (data corruption).",
+      "fallback_version": "",
+      "dependencies": "3"
+    }
+  ]
+}
+
+{
+  "goal": "Daily Engineering Blog Analysis",
+  "goal_category": "habit",
+  "goal_type": "system_design_study",
+  "time_horizon": "30",
+  "description": "Read and deconstruct one engineering blog post (e.g., Uber, Netflix, Meta) daily to learn real-world architecture patterns.",
+  "baseline": {
+    "fixed_constraints": "Must extract the 'Problem', 'Solution', and 'Trade-off' from each article.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must draw a rough sketch of the architecture described."
+  },
+  "failure_policy": {
+    "missed_task_handling": "skip",
+    "habit_miss_interpretation": "warning"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Article Selection",
+      "description": "Choose a high-quality technical article focusing on scaling, database migration, or microservices.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 5,
+        "max": 5
+      },
+      "success_criteria": "Article is open and ready to read.",
+      "fallback_version": "Pick an article from 'High Scalability'.",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "The 'Trade-off' Hunt",
+      "description": "Identify the specific constraint the team faced and what they sacrificed to solve it (e.g., Consistency for Availability).",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 15,
+        "max": 20
+      },
+      "success_criteria": "A single sentence summary of the trade-off is written in notes.",
+      "fallback_version": "Identify the main technology used.",
+      "dependencies": ""
+    },
+    {
+      "index": 3,
+      "task": "Architecture Sketch",
+      "description": "Draw the system diagram on a notepad based on the text description.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 5,
+        "max": 10
+      },
+      "success_criteria": "A diagram exists showing at least 3 distinct components (e.g., Client -> Load Balancer -> Service).",
+      "fallback_version": "List the components as bullet points.",
+      "dependencies": ""
+    }
+  ]
+}
+
+{
+  "goal": "Master the 'Sliding Window' Algorithmic Pattern",
+  "goal_category": "one_time",
+  "goal_type": "skill_acquisition",
+  "time_horizon": "7",
+  "description": "Deep dive into the Sliding Window technique to intuitively solve substring and subarray problems without brute force.",
+  "baseline": {
+    "fixed_constraints": "Must implement solutions in Python.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must write a reusable code template for 'Variable Size' window problems."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Concept Visualization",
+      "description": "Draw the difference between a Fixed Window (e.g., max sum of size k) and Variable Window (e.g., smallest subarray with sum >= s).",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 30,
+        "max": 45
+      },
+      "success_criteria": "A visual diagram exists explaining how the 'Left' and 'Right' pointers move.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Fixed Window Practice",
+      "description": "Solve 'Maximum Average Subarray I' and 'Find All Anagrams in a String'.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "Both problems solved with O(n) time complexity.",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 3,
+      "task": "Variable Window Logic",
+      "description": "Solve 'Minimum Size Subarray Sum'. Focus on the `while` loop condition for shrinking the window.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "Correctly implemented the expansion (right++) and contraction (left++) logic.",
+      "fallback_version": "",
+      "dependencies": "2"
+    },
+    {
+      "index": 4,
+      "task": "Advanced Application (Hash Map Integration)",
+      "description": "Solve 'Longest Substring Without Repeating Characters'.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "Solution uses a Set or Map to track duplicates within the window.",
+      "fallback_version": "",
+      "dependencies": "3"
+    },
+    {
+      "index": 5,
+      "task": "Pattern Template Creation",
+      "description": "Write a generic code skeleton that handles window expansion, constraint checking, and window shrinking.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 20,
+        "max": 30
+      },
+      "success_criteria": "A versatile template saved to the personal snippet library.",
+      "fallback_version": "",
+      "dependencies": "4"
+    }
+  ]
+}
+{
+  "goal": "Weekly Virtual Contest Simulation",
+  "goal_category": "habit",
+  "goal_type": "exam_simulation",
+  "time_horizon": "90",
+  "description": "Simulate the pressure of a real coding interview or LeetCode Weekly Contest to build speed and stress resilience.",
+  "baseline": {
+    "fixed_constraints": "Must be done on Saturday or Sunday mornings.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Zero access to Google, StackOverflow, or previous submissions during the 90 minutes."
+  },
+  "failure_policy": {
+    "missed_task_handling": "skip",
+    "habit_miss_interpretation": "warning"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Environment Setup",
+      "description": "Open the Virtual Contest page, put phone in 'Do Not Disturb', and start the 90-minute timer.",
+      "is_repeatable": true,
+      "repeat_pattern": "weekly",
+      "estimated_duration_minutes": {
+        "min": 5,
+        "max": 5
+      },
+      "success_criteria": "Contest interface is ready and distractions are removed.",
+      "fallback_version": "Set a timer for 1 single problem (20 mins).",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "The Sprint (90 Mins)",
+      "description": "Attempt to solve the 4 contest problems (Easy, Medium, Medium, Hard) strictly within the time limit.",
+      "is_repeatable": true,
+      "repeat_pattern": "weekly",
+      "estimated_duration_minutes": {
+        "min": 90,
+        "max": 90
+      },
+      "success_criteria": "Effort applied continuously until time is up or all problems are solved.",
+      "fallback_version": "Attempt only the first 2 problems.",
+      "dependencies": ""
+    },
+    {
+      "index": 3,
+      "task": "Immediate Score Check",
+      "description": "Check the results to see which test cases failed and record the ranking/score.",
+      "is_repeatable": true,
+      "repeat_pattern": "weekly",
+      "estimated_duration_minutes": {
+        "min": 5,
+        "max": 10
+      },
+      "success_criteria": "Score recorded in tracking spreadsheet.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 4,
+      "task": "Upsolving Analysis",
+      "description": "For one problem that was NOT solved, read the editorial and implement the solution without looking at the text.",
+      "is_repeatable": true,
+      "repeat_pattern": "weekly",
+      "estimated_duration_minutes": {
+        "min": 30,
+        "max": 60
+      },
+      "success_criteria": "One failed problem is now understood and submitted successfully.",
+      "fallback_version": "Just read the approach logic.",
+      "dependencies": ""
+    }
+  ]
+}
+
+
+{
+  "goal": "Daily Pattern Recognition Drill",
+  "goal_category": "habit",
+  "goal_type": "meta_skill",
+  "time_horizon": "30",
+  "description": "Train the brain to instantly identify the correct data structure or algorithm for a problem without actually writing the code.",
+  "baseline": {
+    "fixed_constraints": "Must cover at least 5 different problem types.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Do not write code; this is purely a classification exercise."
+  },
+  "failure_policy": {
+    "missed_task_handling": "downgrade",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Random Pick & Read",
+      "description": "Open a random LeetCode problem and read the description and constraints (e.g., n < 10^5).",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 2,
+        "max": 3
+      },
+      "success_criteria": "Problem statement read and constraints noted.",
+      "fallback_version": "Read the title and tags only.",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Hypothesis Generation",
+      "description": "Within 60 seconds, verbally state the pattern (e.g., 'This is Top K Elements using a Heap' or 'This is Graph BFS').",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 1,
+        "max": 1
+      },
+      "success_criteria": "A specific pattern is guessed.",
+      "fallback_version": "Guess the general data structure (e.g., 'Tree').",
+      "dependencies": ""
+    },
+    {
+      "index": 3,
+      "task": "Verification",
+      "description": "Reveal the 'Related Topics' tags or check the discussion titles to verify if the hypothesis was correct.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 1,
+        "max": 2
+      },
+      "success_criteria": "Hypothesis confirmed or corrected.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 4,
+      "task": "Constraint Mapping",
+      "description": "Briefly note *why* the constraints pointed to that solution (e.g., 'n=20 suggests O(2^n) recursion').",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 2,
+        "max": 3
+      },
+      "success_criteria": "One reason linking constraints to complexity is noted.",
+      "fallback_version": "",
+      "dependencies": ""
+    }
+  ]
+}
+
+{
+  "goal": "Master Backtracking Algorithms",
+  "goal_category": "one_time",
+  "goal_type": "skill_acquisition",
+  "time_horizon": "14",
+  "description": "Understand and implement backtracking to solve combinatorial problems like N-Queens, Sudoku, and Permutations.",
+  "baseline": {
+    "fixed_constraints": "Must visualize the recursion tree for at least 3 problems.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must implement state pruning (optimizations) where applicable."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Recursion Tree Visualization",
+      "description": "Draw the full state space tree for 'Permutations of [1, 2, 3]' on paper.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 30,
+        "max": 45
+      },
+      "success_criteria": "Tree diagram shows all leaf nodes and the backtracking paths.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Basic Implementation: Subsets",
+      "description": "Solve 'Subsets' (Power Set) using the 'include vs exclude' decision pattern.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 45,
+        "max": 60
+      },
+      "success_criteria": "Code passes all test cases with correct output.",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 3,
+      "task": "Constraint Propagation: N-Queens",
+      "description": "Solve 'N-Queens'. Implement the `isValid` function to check diagonals and columns efficiently.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 90,
+        "max": 120
+      },
+      "success_criteria": "Function returns correct number of solutions for N=8.",
+      "fallback_version": "",
+      "dependencies": "2"
+    },
+    {
+      "index": 4,
+      "task": "Optimization: Pruning",
+      "description": "Solve 'Sudoku Solver' but optimize by trying the cell with the fewest options first (Most Constrained Variable).",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "Solver completes a 'Hard' Sudoku puzzle under 1 second.",
+      "fallback_version": "",
+      "dependencies": "3"
+    }
+  ]
+}
+
+{
+  "goal": "System Design: Distributed Rate Limiter",
+  "goal_category": "one_time",
+  "goal_type": "system_design",
+  "time_horizon": "7",
+  "description": "Design a system to limit API requests (e.g., 100 req/min) using Redis and sliding window logs.",
+  "baseline": {
+    "fixed_constraints": "Must handle race conditions in a distributed environment.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must compare Fixed Window vs Sliding Window Log vs Token Bucket algorithms."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Algorithm Comparison",
+      "description": "Create a comparison matrix of Token Bucket, Leaky Bucket, and Sliding Window Counters.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 30,
+        "max": 45
+      },
+      "success_criteria": "Table exists listing Pros/Cons and memory usage for each.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Redis Strategy Design",
+      "description": "Design the data structure (e.g., Sorted Sets) to store timestamps for the 'Sliding Window Log' approach.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 45,
+        "max": 60
+      },
+      "success_criteria": "Lua script logic or pseudo-code written for atomic operations.",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 3,
+      "task": "Architecture Diagram",
+      "description": "Draw the flow: Client -> Middleware (Rate Limiter) -> Redis -> Backend Service.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 30,
+        "max": 45
+      },
+      "success_criteria": "Diagram includes handling of '429 Too Many Requests' responses.",
+      "fallback_version": "",
+      "dependencies": "2"
+    }
+  ]
+}
+
+{
+  "goal": "Graph Theory: Topological Sort Mastery",
+  "goal_category": "one_time",
+  "goal_type": "skill_acquisition",
+  "time_horizon": "10",
+  "description": "Master dependency resolution problems (e.g., Course Schedule, Build Systems) using Kahn's Algorithm and DFS.",
+  "baseline": {
+    "fixed_constraints": "Must implement both BFS (Kahn's) and DFS approaches.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must correctly detect cycles in a directed graph."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Concept Mapping",
+      "description": "Define 'Indegree' and draw a Directed Acyclic Graph (DAG) with its indegree table.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 20,
+        "max": 30
+      },
+      "success_criteria": "Correct calculation of indegrees for a 6-node graph.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Kahn's Algorithm (BFS) Implementation",
+      "description": "Solve 'Course Schedule II' using a Queue and Indegree array.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "Code correctly returns a valid ordering or detects a cycle.",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 3,
+      "task": "DFS Cycle Detection",
+      "description": "Implement the 'visited' and 'recursion stack' (path) arrays to detect cycles in a DFS traversal.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "Function returns false immediately upon finding a back-edge.",
+      "fallback_version": "",
+      "dependencies": "1"
+    }
+  ]
+}
+
+{
+  "goal": "Optimize Database Performance with Indexing",
+  "goal_category": "one_time",
+  "goal_type": "technical_problem_solving",
+  "time_horizon": "5",
+  "description": "Analyze slow SQL queries and implement specific indexing strategies (B-Tree, Hash, Composite) to reduce execution time.",
+  "baseline": {
+    "fixed_constraints": "Must use `EXPLAIN ANALYZE` (Postgres) or equivalent to verify results.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must demonstrate the difference between a Full Table Scan and an Index Scan."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Generate Test Data",
+      "description": "Populate a table with 1 million rows of random user data.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 15,
+        "max": 30
+      },
+      "success_criteria": "Database table is populated.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Baseline Performance Measurement",
+      "description": "Run a `SELECT * FROM users WHERE last_name = 'Smith'` query and record the execution time and plan.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 10,
+        "max": 15
+      },
+      "success_criteria": "Query plan confirms a Full Table Scan.",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 3,
+      "task": "Index Creation & Validation",
+      "description": "Create a B-Tree index on `last_name` and re-run the query.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 20,
+        "max": 30
+      },
+      "success_criteria": "Query time reduced by at least 90% and plan shows Index Scan.",
+      "fallback_version": "",
+      "dependencies": "2"
+    },
+    {
+      "index": 4,
+      "task": "Composite Index Drill",
+      "description": "Test a query filtering by `last_name` AND `age`. Compare separate indexes vs a single composite index.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 45,
+        "max": 60
+      },
+      "success_criteria": "Composite index validated as more efficient for the multi-column query.",
+      "fallback_version": "",
+      "dependencies": "3"
+    }
+  ]
+}
+
+{
+  "goal": "Implement a Trie (Prefix Tree) for Auto-Complete",
+  "goal_category": "one_time",
+  "goal_type": "skill_acquisition",
+  "time_horizon": "7",
+  "description": "Build a Trie data structure from scratch to handle string insertion and prefix searching efficiently.",
+  "baseline": {
+    "fixed_constraints": "Must define a custom `TrieNode` class.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Search complexity must be O(L) where L is the word length."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Class Structure Design",
+      "description": "Define the `TrieNode` with a HashMap (or array size 26) of children and a boolean `isEndOfWord`.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 20,
+        "max": 30
+      },
+      "success_criteria": "Class compiles.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Insert Operation",
+      "description": "Implement the method to add a word by iterating through chars and creating nodes if they don't exist.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 30,
+        "max": 45
+      },
+      "success_criteria": "Able to insert 'apple' and 'app' correctly.",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 3,
+      "task": "Prefix Search Operation",
+      "description": "Implement `startsWith(prefix)` to return true if any word in the Trie begins with the given string.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 30,
+        "max": 45
+      },
+      "success_criteria": "Returns True for 'app' after inserting 'apple'.",
+      "fallback_version": "",
+      "dependencies": "2"
+    }
+  ]
+}
+
+{
+  "goal": "Daily Bit Manipulation Tricks",
+  "goal_category": "habit",
+  "goal_type": "optimization_skills",
+  "time_horizon": "14",
+  "description": "Learn one bitwise operation trick per day to optimize code (e.g., checking parity, swapping without temp, isolating bits).",
+  "baseline": {
+    "fixed_constraints": "No calculator allowed; verify binary math on paper.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must apply the trick to a coding problem."
+  },
+  "failure_policy": {
+    "missed_task_handling": "skip",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Trick Learning",
+      "description": "Study one specific operator (e.g., XOR `^`, Left Shift `<<`) and its common use case (e.g., `x & (x-1)` clears the lowest set bit).",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 10,
+        "max": 15
+      },
+      "success_criteria": "Concept understood and written in notes.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Problem Application",
+      "description": "Solve one 'Bit Manipulation' tagged problem on LeetCode (e.g., 'Number of 1 Bits', 'Single Number').",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 20,
+        "max": 30
+      },
+      "success_criteria": "Problem solved optimally using bitwise ops.",
+      "fallback_version": "",
+      "dependencies": ""
+    }
+  ]
+}
+
+{
+  "goal": "Heap / Priority Queue Deep Dive",
+  "goal_category": "one_time",
+  "goal_type": "skill_acquisition",
+  "time_horizon": "10",
+  "description": "Master the usage of Min-Heaps and Max-Heaps for 'Top K' problems and median maintenance.",
+  "baseline": {
+    "fixed_constraints": "Must implement a custom Heap class (push/pop/heapify) at least once.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must distinguish when to use a Heap vs Sorting."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Heap Implementation from Scratch",
+      "description": "Write a Min-Heap using an array implementation, handling the `bubbleUp` and `sinkDown` logic.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "Heap property acts correctly after 10 random insertions.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Top K Frequent Elements",
+      "description": "Solve 'Top K Frequent Elements' using a Min-Heap of size K to keep track of the largest elements seen so far.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 45,
+        "max": 60
+      },
+      "success_criteria": "Solution complexity is O(N log K).",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 3,
+      "task": "Median Finder Pattern",
+      "description": "Solve 'Find Median from Data Stream' using two heaps (one Min, one Max).",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "Correctly balances elements between the two heaps.",
+      "fallback_version": "",
+      "dependencies": "1"
+    }
+  ]
+}
+{
+  "goal": "Design Patterns: Singleton & Factory",
+  "goal_category": "one_time",
+  "goal_type": "software_architecture",
+  "time_horizon": "5",
+  "description": "Implement two fundamental Creational Design Patterns to manage object instantiation.",
+  "baseline": {
+    "fixed_constraints": "Must be thread-safe implementations.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must explain *why* these patterns are used (e.g., decoupling, resource control)."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Singleton Implementation",
+      "description": "Write a Thread-Safe Singleton (e.g., using 'Double-Checked Locking' in Java or `sync.Once` in Go).",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 30,
+        "max": 45
+      },
+      "success_criteria": "Multiple threads retrieve the exact same instance ID.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Factory Method Implementation",
+      "description": "Create a `ShapeFactory` that returns objects of type `Circle`, `Square`, or `Rectangle` based on string input.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 45,
+        "max": 60
+      },
+      "success_criteria": "Client code creates shapes without using the `new` keyword directly.",
+      "fallback_version": "",
+      "dependencies": "1"
+    }
+  ]
+}
+
+{
+  "goal": "Master Binary Search on Answer Space",
+  "goal_category": "one_time",
+  "goal_type": "advanced_algorithms",
+  "time_horizon": "7",
+  "description": "Learn to apply Binary Search not just to arrays, but to solution ranges (e.g., 'Minimize the Maximum' problems).",
+  "baseline": {
+    "fixed_constraints": "None.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must define the monotonic condition (predicate function) clearly."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Concept Identification",
+      "description": "Recognize the pattern: If checking `x` is valid implies `x+1` is valid (or vice versa), binary search applies.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 30,
+        "max": 45
+      },
+      "success_criteria": "Written explanation of monotonicity.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Predicate Function Implementation",
+      "description": "For 'Koko Eating Bananas', write the helper function `canEatAll(speed)` that returns true/false.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 30,
+        "max": 45
+      },
+      "success_criteria": "Helper function works correctly in isolation.",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 3,
+      "task": "Binary Search Driver",
+      "description": "Implement the binary search loop (left, right, mid) calling the predicate function.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 30,
+        "max": 45
+      },
+      "success_criteria": "Problem solved optimally.",
+      "fallback_version": "",
+      "dependencies": "2"
+    }
+  ]
+}
+
+{
+  "goal": "Weekly Code Refactoring Marathon",
+  "goal_category": "habit",
+  "goal_type": "code_quality",
+  "time_horizon": "60",
+  "description": "Revisit old solutions or personal projects to improve readability, modularity, and variable naming.",
+  "baseline": {
+    "fixed_constraints": "Must be done on Sunday evenings.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Code must not break existing functionality (regression testing)."
+  },
+  "failure_policy": {
+    "missed_task_handling": "skip",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Target Selection",
+      "description": "Open a project or LeetCode submission from >1 month ago.",
+      "is_repeatable": true,
+      "repeat_pattern": "weekly",
+      "estimated_duration_minutes": {
+        "min": 5,
+        "max": 10
+      },
+      "success_criteria": "Target code is open.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Smell Detection",
+      "description": "Identify 'Magic Numbers', massive functions, or unclear variable names (e.g., `temp`, `x`, `arr`).",
+      "is_repeatable": true,
+      "repeat_pattern": "weekly",
+      "estimated_duration_minutes": {
+        "min": 10,
+        "max": 15
+      },
+      "success_criteria": "List of 3 things to improve.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 3,
+      "task": "Refactoring",
+      "description": "Extract helper functions, rename variables to be descriptive, and add comments where logic is complex.",
+      "is_repeatable": true,
+      "repeat_pattern": "weekly",
+      "estimated_duration_minutes": {
+        "min": 30,
+        "max": 45
+      },
+      "success_criteria": "Code is cleaner and passes tests.",
+      "fallback_version": "",
+      "dependencies": ""
+    }
+  ]
+}
+
+{
+  "goal": "Master Monotonic Stack and Queue Patterns",
+  "goal_category": "one_time",
+  "goal_type": "skill_acquisition",
+  "time_horizon": "7",
+  "description": "Learn to solve 'Next Greater Element' and 'Sliding Window Maximum' problems using monotonic data structures to achieve O(n) performance.",
+  "baseline": {
+    "fixed_constraints": "Must use Python or C++ for implementation.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must be able to explain the logic for why elements are popped (maintaining the 'monotonic' property)."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Monotonic Stack Visualization",
+      "description": "Trace the stack state for the array [2, 1, 2, 4, 3] to find the 'Next Greater Element'.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 20,
+        "max": 30
+      },
+      "success_criteria": "A step-by-step table showing the stack contents after each element is processed.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Next Greater Element Implementation",
+      "description": "Solve 'Next Greater Element I' on LeetCode using a decreasing stack and a hash map.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 45,
+        "max": 60
+      },
+      "success_criteria": "Solution passes all test cases in O(n) time.",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 3,
+      "task": "Sliding Window Maximum (Monotonic Queue)",
+      "description": "Use a Deque to maintain a monotonic decreasing window to solve 'Sliding Window Maximum'.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "Code correctly identifies the maximum in every window shift without O(n*k) complexity.",
+      "fallback_version": "",
+      "dependencies": "2"
+    }
+  ]
+}
+
+{
+  "goal": "Fast & Slow Pointers (Tortoise and Hare)",
+  "goal_category": "one_time",
+  "goal_type": "skill_acquisition",
+  "time_horizon": "5",
+  "description": "Master the two-pointer technique for detecting cycles and finding midpoints in linear data structures.",
+  "baseline": {
+    "fixed_constraints": "None.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must derive the mathematical proof for why the pointers meet in a cycle."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Cycle Detection Logic",
+      "description": "Solve 'Linked List Cycle'. Implement the logic where `fast` moves twice as fast as `slow`.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 30,
+        "max": 45
+      },
+      "success_criteria": "Correctly identifies presence of cycle without extra space (O(1) space).",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Find Cycle Entrance",
+      "description": "Solve 'Linked List Cycle II'. Prove and implement the logic to find the start of the loop.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 45,
+        "max": 60
+      },
+      "success_criteria": "Code returns the correct node and the math behind 'distance p = distance k' is understood.",
+      "fallback_version": "",
+      "dependencies": "1"
+    }
+  ]
+}
+{
+  "goal": "Union-Find (Disjoint Set Union) Mastery",
+  "goal_category": "one_time",
+  "goal_type": "skill_acquisition",
+  "time_horizon": "10",
+  "description": "Learn to manage disjoint sets and detect connectivity in graphs with nearly constant time complexity.",
+  "baseline": {
+    "fixed_constraints": "Must implement Path Compression and Union by Rank/Size.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must be able to explain why the time complexity is the Inverse Ackermann function."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Base Implementation",
+      "description": "Write a `UnionFind` class with `find` and `union` methods.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 30,
+        "max": 45
+      },
+      "success_criteria": "The class successfully merges sets of integers.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Graph Connectivity Application",
+      "description": "Solve 'Number of Connected Components in an Undirected Graph'.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 45,
+        "max": 60
+      },
+      "success_criteria": "Solution utilizes the Union-Find class to count isolated clusters.",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 3,
+      "task": "Redundant Connection Detection",
+      "description": "Solve 'Redundant Connection' by finding the edge that creates a cycle in a tree.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 45,
+        "max": 60
+      },
+      "success_criteria": "Correct edge is returned by identifying when `find(u) == find(v)`.",
+      "fallback_version": "",
+      "dependencies": "2"
+    }
+  ]
+}
+{
+  "goal": "Master Greedy Algorithms (Intervals & Optimization)",
+  "goal_category": "one_time",
+  "goal_type": "skill_acquisition",
+  "time_horizon": "10",
+  "description": "Learn to identify when a locally optimal choice leads to a globally optimal solution, focusing on Interval Scheduling and Jump Game problems.",
+  "baseline": {
+    "fixed_constraints": "Must prove the greedy choice property logic (even informally) before coding.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must sort intervals correctly based on end times or start times depending on the problem."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Interval Scheduling Logic",
+      "description": "Solve 'Non-overlapping Intervals'. Sort by *end time* to maximize the number of non-overlapping intervals.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 45,
+        "max": 60
+      },
+      "success_criteria": "Correctly implemented sorting and the single-pass iteration.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Merge Intervals Pattern",
+      "description": "Solve 'Merge Intervals'. Sort by *start time* and merge overlapping ranges linearly.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 45,
+        "max": 60
+      },
+      "success_criteria": "Code handles the edge case where one interval completely swallows another.",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 3,
+      "task": "Jump Game Analysis",
+      "description": "Solve 'Jump Game' using a greedy `max_reachable` index. Avoid Dynamic Programming (O(n^2)) in favor of O(n) greedy.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 30,
+        "max": 45
+      },
+      "success_criteria": "Solution passes in O(n) time.",
+      "fallback_version": "",
+      "dependencies": ""
+    }
+  ]
+}
+{
+  "goal": "Advanced Tree Traversals & Serialization",
+  "goal_category": "one_time",
+  "goal_type": "skill_acquisition",
+  "time_horizon": "14",
+  "description": "Move beyond simple recursion to handle Tree Serialization and O(1) Space Traversals (Morris Traversal).",
+  "baseline": {
+    "fixed_constraints": "Must implement iterative solutions using a Stack.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must handle null values correctly during serialization."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Serialize and Deserialize Binary Tree",
+      "description": "Implement a codec to convert a tree to a string (e.g., '1,2,X,X,3,X,X') and back using Preorder traversal.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 90,
+        "max": 120
+      },
+      "success_criteria": "The deserialized tree matches the original structure exactly.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Morris Inorder Traversal (O(1) Space)",
+      "description": "Implement Inorder traversal without recursion or a stack by creating temporary links to predecessors (Threading).",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "Code traverses the tree using O(1) auxiliary space.",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 3,
+      "task": "Vertical Order Traversal",
+      "description": "Solve 'Vertical Order Traversal of a Binary Tree' using BFS and a sorting strategy for column/row indices.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "Correctly handles nodes at the same position by sorting by value.",
+      "fallback_version": "",
+      "dependencies": ""
+    }
+  ]
+}
+{
+  "goal": "Segment Tree Implementation (Range Queries)",
+  "goal_category": "one_time",
+  "goal_type": "advanced_algorithms",
+  "time_horizon": "14",
+  "description": "Build a Segment Tree to handle Range Sum Queries with updates in logarithmic time, overcoming the limitations of Prefix Sum arrays.",
+  "baseline": {
+    "fixed_constraints": "Must implement array-based tree representation (index `2*i` and `2*i+1`).",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must achieve O(log n) for both update and query operations."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Tree Build Logic",
+      "description": "Write the `buildTree` function to recursively divide the array range and store sums in the tree array.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 45,
+        "max": 60
+      },
+      "success_criteria": "Tree array is populated correctly with the sum of the full range at index 1.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Point Update Implementation",
+      "description": "Implement the `update(index, val)` function to modify a leaf node and recalculate sums up to the root.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 45,
+        "max": 60
+      },
+      "success_criteria": "Update reflects correctly in the root sum.",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 3,
+      "task": "Range Query Logic",
+      "description": "Implement `query(left, right)` to return the sum of a specific range by combining relevant tree nodes.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "Correctly returns sums for arbitrary ranges [L, R].",
+      "fallback_version": "",
+      "dependencies": "2"
+    }
+  ]
+}
+{
+  "goal": "Master LRU Cache Design & Implementation",
+  "goal_category": "one_time",
+  "goal_type": "skill_acquisition",
+  "time_horizon": "7",
+  "description": "Implement a Least Recently Used (LRU) Cache from scratch using a Doubly Linked List and a Hash Map to achieve O(1) performance for both get and put operations.",
+  "baseline": {
+    "fixed_constraints": "Must not use built-in OrderedDict or LinkedHashMap libraries.",
+    "physical_constraints": "None.",
+    "non_negotiables": "The cache must maintain a fixed capacity and evict the least recently used item when full."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Data Structure Design",
+      "description": "Define the `Node` class for a doubly linked list (key, value, prev, next) and initialize the `LRUCache` class with dummy head and tail nodes.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 30,
+        "max": 45
+      },
+      "success_criteria": "A linked list structure exists where head.next = tail and tail.prev = head.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Internal Helper Methods",
+      "description": "Implement `add_node` (to head) and `remove_node` logic to handle the pointer updates for the doubly linked list.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 30,
+        "max": 45
+      },
+      "success_criteria": "Pointers are updated correctly without losing references or causing memory leaks.",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 3,
+      "task": "Put and Get Logic",
+      "description": "Implement the `get` method to move accessed items to the head and the `put` method to insert new items or update existing ones, handling eviction if capacity is reached.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "The cache correctly tracks usage and evicts the item nearest to the tail.",
+      "fallback_version": "",
+      "dependencies": "2"
+    }
+  ]
+}
+{
+  "goal": "Network Flow: Max Flow Min Cut",
+  "goal_category": "one_time",
+  "goal_type": "advanced_algorithms",
+  "time_horizon": "14",
+  "description": "Master the Ford-Fulkerson method and Edmonds-Karp algorithm to solve maximum flow problems in flow networks.",
+  "baseline": {
+    "fixed_constraints": "Must implement the algorithm using an adjacency matrix or list to represent capacities.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must be able to identify the minimum cut from the saturated edges after finding the max flow."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Residual Graph Concept",
+      "description": "Draw a small 4-node network and manually construct its residual graph after a single augmenting path is found.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 30,
+        "max": 45
+      },
+      "success_criteria": "Correct representation of forward (remaining) and backward (reverse) capacities.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Edmonds-Karp Implementation",
+      "description": "Implement the Ford-Fulkerson method using BFS to find the shortest augmenting path (Edmonds-Karp).",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 120,
+        "max": 180
+      },
+      "success_criteria": "The algorithm correctly calculates the total max flow for a sample network.",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 3,
+      "task": "Min-Cut Identification",
+      "description": "Run a final BFS/DFS on the residual graph to find all nodes reachable from the source; the edges leaving this set constitute the Min-Cut.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 45,
+        "max": 60
+      },
+      "success_criteria": "The capacity of the identified cut equals the value of the maximum flow.",
+      "fallback_version": "",
+      "dependencies": "2"
+    }
+  ]
+}
+
+{
+  "goal": "Daily Algorithm Debugging Challenge",
+  "goal_category": "habit",
+  "goal_type": "problem_solving",
+  "time_horizon": "30",
+  "description": "Identify and fix logical bugs in provided 'broken' code snippets to sharpen analytical skills and knowledge of language-specific pitfalls.",
+  "baseline": {
+    "fixed_constraints": "Must be done without using an IDE debugger (manual tracing only).",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must provide a fix that passes original test cases."
+  },
+  "failure_policy": {
+    "missed_task_handling": "skip",
+    "habit_miss_interpretation": "warning"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Bug Identification",
+      "description": "Read a snippet containing common errors (e.g., off-by-one, integer overflow, improper scoping) and find the flaw.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 10,
+        "max": 15
+      },
+      "success_criteria": "The line number and type of logical error are identified.",
+      "fallback_version": "Read a 'Bug of the Day' explanation from a blog.",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Corrected Implementation",
+      "description": "Rewrite the function or modify the specific lines to resolve the issue.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 10,
+        "max": 20
+      },
+      "success_criteria": "The corrected code successfully processes a dry-run input.",
+      "fallback_version": "",
+      "dependencies": "1"
+    }
+  ]
+}
+{
+  "goal": "Master Bitmask Dynamic Programming",
+  "goal_category": "one_time",
+  "goal_type": "advanced_algorithms",
+  "time_horizon": "14",
+  "description": "Learn to solve optimization problems involving small sets (n < 20) by using bitmasks to represent states in Dynamic Programming.",
+  "baseline": {
+    "fixed_constraints": "Must implement in a language that supports bitwise operators efficiently (Python/C++).",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must be able to calculate the total number of states ($$2^n \\times n$$) before implementation."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Bitmask Operations Review",
+      "description": "Practice checking if the i-th bit is set, setting the i-th bit, and toggling bits using `&`, `|`, and `^`.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 30,
+        "max": 45
+      },
+      "success_criteria": "Correctly implemented helper functions for bit manipulation.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Traveling Salesperson Problem (TSP)",
+      "description": "Solve the TSP using DP with Bitmask to find the shortest possible route that visits every city exactly once.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 120,
+        "max": 180
+      },
+      "success_criteria": "Code correctly identifies the minimum path cost for a graph with 15 nodes.",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 3,
+      "task": "Assignment Problem (Bitmask DP)",
+      "description": "Solve a problem where N tasks are assigned to N people with varying costs, minimizing the total cost.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "Successfully used a 1D DP array where the index is the bitmask representation of assigned tasks.",
+      "fallback_version": "",
+      "dependencies": "2"
+    }
+  ]
+}
+{
+  "goal": "Balanced Search Trees: Red-Black Tree Rotations",
+  "goal_category": "one_time",
+  "goal_type": "skill_acquisition",
+  "time_horizon": "10",
+  "description": "Master the self-balancing logic of Red-Black trees, focusing on left/right rotations and color flipping.",
+  "baseline": {
+    "fixed_constraints": "Must maintain the 5 core Red-Black properties during all operations.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must manually trace a sequence of 10 insertions on paper before coding."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Rotation Logic Drills",
+      "description": "Draw a 3-node unbalanced tree and show the step-by-step pointer updates for a Left Rotation.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 30,
+        "max": 45
+      },
+      "success_criteria": "The final drawing shows the parent-child pointers correctly reassigned.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Fix-Up Function Implementation",
+      "description": "Implement the `insertFixUp` method that handles the 3 cases: Uncle is Red, Uncle is Black (Line), and Uncle is Black (Triangle).",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 120,
+        "max": 180
+      },
+      "success_criteria": "A tree of 20 random integers remains balanced and satisfies all Red-Black properties.",
+      "fallback_version": "",
+      "dependencies": "1"
+    }
+  ]
+}
+{
+  "goal": "Daily Algorithm Optimization Log",
+  "goal_category": "habit",
+  "goal_type": "problem_solving",
+  "time_horizon": "30",
+  "description": "A daily habit of taking a working $O(n^2)$ solution and refactoring it to $O(n \\log n)$ or $O(n)$ using advanced data structures.",
+  "baseline": {
+    "fixed_constraints": "Must use a profiler or simple timer to prove the performance gain.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must write a one-sentence explanation of the 'bottleneck' in the original version."
+  },
+  "failure_policy": {
+    "missed_task_handling": "skip",
+    "habit_miss_interpretation": "warning"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Bottleneck Identification",
+      "description": "Analyze a slow solution and identify the redundant operation (e.g., nested loop searching for a value).",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 5,
+        "max": 10
+      },
+      "success_criteria": "The line(s) causing the $O(n^2)$ complexity are identified.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Optimized Refactor",
+      "description": "Replace the slow part with a Hash Map, Heap, or Binary Search to reduce the time complexity.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 20,
+        "max": 40
+      },
+      "success_criteria": "The new solution passes all test cases and shows a visible reduction in execution time for large inputs.",
+      "fallback_version": "Read a 'Top Solution' on LeetCode and explain its optimization.",
+      "dependencies": "1"
+    }
+  ]
+}
+{
+  "goal": "Master B-Tree Data Structures for Database Engine Design",
+  "goal_category": "one_time",
+  "goal_type": "skill_acquisition",
+  "time_horizon": "14",
+  "description": "Understand the multi-way search tree logic used in production database indexing (like MySQL and PostgreSQL) to manage disk-resident data.",
+  "baseline": {
+    "fixed_constraints": "Must focus on the 'Degree' (m) of the tree and its effect on height.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must manually trace the 'Node Splitting' and 'Borrowing/Merging' logic for deletions."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Structural Analysis",
+      "description": "Draw a B-Tree of degree 3 and explain why every node (except root) must have at least $\\lceil m/2 \\rceil$ children.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 30,
+        "max": 45
+      },
+      "success_criteria": "A diagram exists showing keys and pointers correctly balanced according to B-tree rules.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Insertion & Splitting Logic",
+      "description": "Trace the insertion of 10 keys that force at least two node splits. Document the 'median promotion' step.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 45,
+        "max": 60
+      },
+      "success_criteria": "The final tree is perfectly balanced and maintains the search property.",
+      "fallback_version": "",
+      "dependencies": "1"
+    }
+  ]
+}
+{
+  "goal": "Implement a Suffix Trie for Fast Pattern Matching",
+  "goal_category": "one_time",
+  "goal_type": "skill_acquisition",
+  "time_horizon": "7",
+  "description": "Build a data structure that allows for $O(m)$ substring searches where $m$ is the pattern length, regardless of the text size.",
+  "baseline": {
+    "fixed_constraints": "Must handle the termination character (e.g., '$') correctly.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must be able to find all occurrences of a pattern in a large text."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Suffix Generation",
+      "description": "Given a string like 'BANANA$', list all suffixes and insert them into a standard Trie.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 20,
+        "max": 30
+      },
+      "success_criteria": "All suffixes (e.g., 'A$', 'NA$', 'ANA$') are correctly identified.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Pattern Search Function",
+      "description": "Implement a search function that traverses the Trie based on a query string.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 45,
+        "max": 60
+      },
+      "success_criteria": "Function correctly identifies if 'NAN' exists within 'BANANA'.",
+      "fallback_version": "",
+      "dependencies": "1"
+    }
+  ]
+}
+{
+  "goal": "Daily 'Visual Memory' Data Structure Drill",
+  "goal_category": "habit",
+  "goal_type": "cognitive_training",
+  "time_horizon": "30",
+  "description": "A daily 15-minute habit of sketching a complex data structure (e.g., AVL Tree, Skip List) from memory to solidify architectural intuition.",
+  "baseline": {
+    "fixed_constraints": "Must use physical paper and pencil; no undo button.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must label all pointers (next, prev, parent, child) and state variables (height, color, balance factor)."
+  },
+  "failure_policy": {
+    "missed_task_handling": "skip",
+    "habit_miss_interpretation": "warning"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Random Structure Selection",
+      "description": "Use a randomizer to pick one data structure from a curated list of 20.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 1,
+        "max": 2
+      },
+      "success_criteria": "A specific structure is selected.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "The Memory Sketch",
+      "description": "Draw the structure containing at least 7 nodes, ensuring all internal properties are respected.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 10,
+        "max": 12
+      },
+      "success_criteria": "The drawing is complete with all necessary labels and pointers.",
+      "fallback_version": "Copy the structure from a reference for 5 minutes.",
+      "dependencies": "1"
+    },
+    {
+      "index": 3,
+      "task": "Accuracy Audit",
+      "description": "Compare the sketch to a textbook reference and circle any errors (e.g., a missing null pointer or incorrect balance factor).",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 2,
+        "max": 3
+      },
+      "success_criteria": "The sketch is graded as 'Perfect' or 'Requires Review'.",
+      "fallback_version": "",
+      "dependencies": "2"
+    }
+  ]
+}
+{
+  "goal": "Implement a Skip List Data Structure",
+  "goal_category": "one_time",
+  "goal_type": "skill_acquisition",
+  "time_horizon": "10",
+  "description": "Build a probabilistic alternative to balanced trees that supports search, insertion, and deletion in O(log n) time.",
+  "baseline": {
+    "fixed_constraints": "Must implement in Java or C++ to handle manual pointer references.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must include a visual print method to verify the layered structure."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Node Class Design",
+      "description": "Define the `SkipNode` class containing the value and an array (or list) of 'forward' pointers for different levels.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 20,
+        "max": 30
+      },
+      "success_criteria": "Class compiles with a constructor accepting a value and level.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Random Level Generator",
+      "description": "Implement the coin-flip logic to determine the height of a new node (e.g., 50% chance to promote to the next level).",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 30,
+        "max": 45
+      },
+      "success_criteria": "Function returns a level between 1 and MAX_LEVEL following a geometric distribution.",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 3,
+      "task": "Search Operation Implementation",
+      "description": "Write the `search(value)` method that starts at the top level and moves down/right to find the target.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 45,
+        "max": 60
+      },
+      "success_criteria": "Search correctly returns true/false for existing/non-existing values in a static test list.",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 4,
+      "task": "Insertion Logic (Pointer Updates)",
+      "description": "Implement `insert(value)`: Find the update path, create the new node, and re-link pointers at every level up to the node's height.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 90,
+        "max": 120
+      },
+      "success_criteria": "Node is reachable via search and appears in the correct sorted position.",
+      "fallback_version": "",
+      "dependencies": "2, 3"
+    },
+    {
+      "index": 5,
+      "task": "Deletion Logic",
+      "description": "Implement `delete(value)`: Locate the node and update predecessor pointers to skip over it at all levels.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "Node is removed and the list structure remains intact (no broken links).",
+      "fallback_version": "",
+      "dependencies": "4"
+    },
+    {
+      "index": 6,
+      "task": "Console Visualization",
+      "description": "Create a `printList()` method that displays the list level-by-level to verify the tower structure.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 30,
+        "max": 45
+      },
+      "success_criteria": "Output clearly shows the hierarchy (e.g., Level 3: 10 -> 50 -> NULL).",
+      "fallback_version": "",
+      "dependencies": "4"
+    }
+  ]
+}
+{
+  "goal": "Master Fenwick Tree (Binary Indexed Tree) Data Structure",
+  "goal_category": "one_time",
+  "goal_type": "skill_acquisition",
+  "time_horizon": "10",
+  "description": "Learn to implement and apply Binary Indexed Trees (BIT) to solve range query problems with O(log n) updates, replacing slower Segment Trees for specific use cases.",
+  "baseline": {
+    "fixed_constraints": "Must rely on bitwise operations (LSB extraction) rather than explicit tree pointers.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must verify the 1-based indexing requirement common in BIT implementations."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Conceptual Difference Analysis",
+      "description": "Write a short comparison between Prefix Sum Arrays (O(1) query, O(n) update) and Fenwick Trees (O(log n) for both).",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 20,
+        "max": 30
+      },
+      "success_criteria": "A written table exists comparing time complexities for Read vs Update operations.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Least Significant Bit (LSB) Drill",
+      "description": "Practice the isolation logic `x & (-x)` by manually calculating the 'parent' index for 5 random integers on paper.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 15,
+        "max": 25
+      },
+      "success_criteria": "Correctly identified the index updates for numbers like 12 (1100 -> 1000) and 7 (0111 -> 0110).",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 3,
+      "task": "Update Function Implementation",
+      "description": "Implement `update(index, delta)` to add a value to an element and propagate the change up to relevant 'ancestors' using the LSB addition logic.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 45,
+        "max": 60
+      },
+      "success_criteria": "Function correctly modifies the internal array without index out of bounds errors.",
+      "fallback_version": "",
+      "dependencies": "2"
+    },
+    {
+      "index": 4,
+      "task": "Prefix Sum Query Implementation",
+      "description": "Implement `query(index)` to traverse down from the given index to 0 by subtracting the LSB to accumulate the sum.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 45,
+        "max": 60
+      },
+      "success_criteria": "Function returns the correct sum for indices [1...k] on a test array.",
+      "fallback_version": "",
+      "dependencies": "3"
+    },
+    {
+      "index": 5,
+      "task": "Range Sum Wrapper",
+      "description": "Implement `range_query(left, right)` using the formula `query(right) - query(left - 1)`.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 10,
+        "max": 15
+      },
+      "success_criteria": "Correctly calculates sums for arbitrary sub-segments.",
+      "fallback_version": "",
+      "dependencies": "4"
+    },
+    {
+      "index": 6,
+      "task": "Application: Count Inversions",
+      "description": "Solve the 'Count Inversions' problem (finding how many pairs (i, j) exist where i < j and A[i] > A[j]) using a BIT to track frequencies.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 90,
+        "max": 120
+      },
+      "success_criteria": "Algorithm runs in O(n log n) compared to the O(n^2) brute force baseline.",
+      "fallback_version": "",
+      "dependencies": "5"
+    }
+  ]
+}
+
+
+{
+  "goal": "Establish a Daily Algorithmic Pattern Recognition Habit",
+  "goal_category": "habit",
+  "goal_type": "skill_maintenance",
+  "time_horizon": "60",
+  "description": "Develop a consistent routine for identifying and implementing fundamental data structure patterns to maintain technical interview readiness.",
+  "baseline": {
+    "fixed_constraints": "Study sessions must occur between 7:00 AM and 8:30 AM to avoid workday fatigue.",
+    "physical_constraints": "Must use a laptop with a blue light filter to prevent eye strain.",
+    "non_negotiables": "Must write at least one line of code per session; reading only is not permitted."
+  },
+  "failure_policy": {
+    "missed_task_handling": "downgrade",
+    "habit_miss_interpretation": "warning"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Target Pattern Selection",
+      "description": "Select one specific algorithmic pattern (e.g., Sliding Window, Two Pointers, or BFS) from a curated list.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 5,
+        "max": 10
+      },
+      "success_criteria": "The pattern is chosen and a corresponding problem is opened in the browser.",
+      "fallback_version": "Use the 'Problem of the Day' on a coding platform regardless of pattern.",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Constraint-Based Analysis",
+      "description": "Identify three key constraints in the problem (e.g., time complexity requirements or input size) that justify the chosen pattern.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 10,
+        "max": 15
+      },
+      "success_criteria": "A brief written note exists linking the constraints to the pattern choice.",
+      "fallback_version": "Identify only one constraint (e.g., 'Array size is 10^5, so I need O(n)').",
+      "dependencies": ""
+    },
+    {
+      "index": 3,
+      "task": "Pseudo-code Skeleton Construction",
+      "description": "Draft the logical flow of the solution using comments, focusing on edge cases like empty inputs or single-element sets.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 15,
+        "max": 20
+      },
+      "success_criteria": "The structure of the loop or recursion is outlined in the editor.",
+      "fallback_version": "Draw a small example on paper and trace the logic manually.",
+      "dependencies": ""
+    },
+    {
+      "index": 4,
+      "task": "Active Implementation",
+      "description": "Translate the pseudo-code into working code and run it against the provided test cases.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 25,
+        "max": 40
+      },
+      "success_criteria": "The code passes all sample test cases provided by the platform.",
+      "fallback_version": "Read a high-quality solution and manually type it out line-by-line while narrating the logic.",
+      "dependencies": ""
+    },
+    {
+      "index": 5,
+      "task": "Post-Submission Optimization",
+      "description": "Review the runtime and memory usage; identify one specific way to reduce space or time overhead.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 10,
+        "max": 15
+      },
+      "success_criteria": "A finalized version of the code is saved with at least one optimization comment included.",
+      "fallback_version": "Read the top-rated discussion post to see a more efficient approach.",
+      "dependencies": ""
+    }
+  ]
+}
+{
+  "goal": "Build a Deep Learning Library from Scratch",
+  "goal_category": "one_time",
+  "goal_type": "software_engineering",
+  "time_horizon": "21",
+  "description": "Implement a minimal autograd engine and neural network library in Python using only NumPy to understand backpropagation and tensor operations.",
+  "baseline": {
+    "fixed_constraints": "Cannot use PyTorch, TensorFlow, or JAX.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must successfully train a multi-layer perceptron to solve the MNIST digit classification problem."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Scalar Autograd Engine",
+      "description": "Implement a Value class that stores a scalar and its gradient, supporting basic arithmetic (+, *) and building a computational graph for backpropagation.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 90,
+        "max": 120
+      },
+      "success_criteria": "The engine correctly calculates the derivative of a complex nested expression compared to manual calculus.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Tensor Class and Vectorized Ops",
+      "description": "Generalize the scalar engine to handle multi-dimensional NumPy arrays (Tensors) and implement vectorized addition and matrix multiplication.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 120,
+        "max": 180
+      },
+      "success_criteria": "A forward pass of a linear layer (W * x + b) completes without shape mismatch errors.",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 3,
+      "task": "Activation Functions and Loss",
+      "description": "Implement ReLU, Sigmoid, and Softmax activation functions along with Cross-Entropy loss including their local gradients.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "The loss function outputs a positive scalar and gradients can be backpropagated through activations.",
+      "fallback_version": "",
+      "dependencies": "2"
+    },
+    {
+      "index": 4,
+      "task": "Optimizer and Layer Modules",
+      "description": "Build a 'Module' base class, a 'Linear' layer, and an SGD optimizer that updates weights using the stored gradients.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 90,
+        "max": 120
+      },
+      "success_criteria": "Model weights change after a single call to optimizer.step().",
+      "fallback_version": "",
+      "dependencies": "3"
+    },
+    {
+      "index": 5,
+      "task": "MNIST Training Loop",
+      "description": "Create a data loader for MNIST, initialize a 2-layer network, and run a training loop for 5 epochs.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 120,
+        "max": 150
+      },
+      "success_criteria": "Training accuracy reaches at least 90% on the test set.",
+      "fallback_version": "",
+      "dependencies": "4"
+    }
+  ]
+}
+{
+  "goal": "Daily GRE Quant Practice Routine",
+  "goal_category": "habit",
+  "goal_type": "exam_prep",
+  "time_horizon": "45",
+  "description": "Maintain a consistent high-accuracy habit for GRE quantitative reasoning focusing on geometry, algebra, and data interpretation.",
+  "baseline": {
+    "fixed_constraints": "Must use the official GRE on-screen calculator emulator.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must not spend more than 1 minute and 45 seconds on any single question."
+  },
+  "failure_policy": {
+    "missed_task_handling": "skip",
+    "habit_miss_interpretation": "warning"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Mixed Problem Set",
+      "description": "Solve 10 random Quant problems from the Manhattan Prep or Official ETS pool.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 20,
+        "max": 25
+      },
+      "success_criteria": "All 10 problems answered within 18 minutes.",
+      "fallback_version": "Solve 5 problems with no time limit.",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Quantitative Comparison Logic",
+      "description": "Identify 3 problems where 'D' (cannot be determined) is the correct answer and explain the logic.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 10,
+        "max": 15
+      },
+      "success_criteria": "A written note exists detailing why specific variable values (like 0 or negative numbers) lead to 'D'.",
+      "fallback_version": "Read the explanation for one Quant Comparison error made today.",
+      "dependencies": ""
+    },
+    {
+      "index": 3,
+      "task": "Error Log Update",
+      "description": "Document any incorrect answers in a master spreadsheet, categorizing by concept (e.g., 'Prime Numbers' or 'Triangles').",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 5,
+        "max": 10
+      },
+      "success_criteria": "Spreadsheet is updated and at least one 'Lesson Learned' is written.",
+      "fallback_version": "Mentally identify why the error occurred.",
+      "dependencies": ""
+    },
+    {
+      "index": 4,
+      "task": "Mental Math Flashcards",
+      "description": "Review 20 flashcards for common fraction-to-decimal conversions and squares up to 25.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 5,
+        "max": 8
+      },
+      "success_criteria": "100% accuracy on the flashcard deck.",
+      "fallback_version": "Review 5 cards.",
+      "dependencies": ""
+    }
+  ]
+}
+{
+  "goal": "Implement a Relational Database Engine (Mini-SQL)",
+  "goal_category": "one_time",
+  "goal_type": "skill_acquisition",
+  "time_horizon": "30",
+  "description": "Develop a simple disk-based storage engine that supports basic SQL operations, indexing, and persistent storage.",
+  "baseline": {
+    "fixed_constraints": "Must use C or Rust for memory safety and manual pointer management.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Data must persist on disk after the program exits."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Pager and Block Storage",
+      "description": "Implement a Pager that reads/writes fixed-size pages (4KB) from a binary file to memory.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 90,
+        "max": 120
+      },
+      "success_criteria": "Successfully reading a specific byte from a file via the Pager.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "B-Tree Leaf Node Format",
+      "description": "Define the binary layout of a leaf node, including headers (type, parent, key count) and cells (key, value).",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "Code exists to serialize/deserialize a node to a raw byte buffer.",
+      "fallback_version": "",
+      "dependencies": "1"
+    },
+    {
+      "index": 3,
+      "task": "Row Serialization Logic",
+      "description": "Implement a schema definition and a compact binary format to store user rows (ID, Username, Email).",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 45,
+        "max": 60
+      },
+      "success_criteria": "A row can be written to a buffer and read back with 100% data integrity.",
+      "fallback_version": "",
+      "dependencies": "2"
+    },
+    {
+      "index": 4,
+      "task": "Table Scan Implementation",
+      "description": "Create a cursor that can iterate through all rows in the B-Tree leaf nodes from start to finish.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "Program prints all 10 inserted test rows in order.",
+      "fallback_version": "",
+      "dependencies": "3"
+    },
+    {
+      "index": 5,
+      "task": "Basic REPL and Parser",
+      "description": "Implement a simple Command Line Interface that parses 'insert' and 'select' statements using string splitting.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 90,
+        "max": 120
+      },
+      "success_criteria": "The engine processes a manual insert command and stores it on disk.",
+      "fallback_version": "",
+      "dependencies": "4"
+    }
+  ]
+}
+
+{
+  "goal": "Establish a Daily Morning 'Code Kata' Habit",
+  "goal_category": "habit",
+  "goal_type": "skill_maintenance",
+  "time_horizon": "90",
+  "description": "Solve one small, logic-focused coding problem every morning to improve syntax fluency and edge-case thinking.",
+  "baseline": {
+    "fixed_constraints": "Must be done between 7:30 AM and 8:00 AM.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must not use AI assistants or search for the solution until the task is complete."
+  },
+  "failure_policy": {
+    "missed_task_handling": "skip",
+    "habit_miss_interpretation": "warning"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Problem Selection",
+      "description": "Choose a 6 kyu or 7 kyu level problem from CodeWars or a 'Simple' tagged problem on LeetCode.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 2,
+        "max": 5
+      },
+      "success_criteria": "Problem description is read and understood.",
+      "fallback_version": "Redo a previously solved 8 kyu problem.",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Test Case Drafting",
+      "description": "Write 3 test cases, including one 'happy path' and two edge cases (e.g., empty string, negative number).",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 5,
+        "max": 10
+      },
+      "success_criteria": "Three manual test cases are written in the code editor comments.",
+      "fallback_version": "Use only the provided default test cases.",
+      "dependencies": ""
+    },
+    {
+      "index": 3,
+      "task": "Implementation",
+      "description": "Write the function to pass all test cases.",
+      "is_repeatable": true,
+      "repeat_pattern": "daily",
+      "estimated_duration_minutes": {
+        "min": 10,
+        "max": 15
+      },
+      "success_criteria": "Code runs and returns the expected output for all test cases.",
+      "fallback_version": "Read the solution logic and write it out line-by-line.",
+      "dependencies": ""
+    }
+  ]
+}
+{
+  "goal": "Prepare for Professional Cloud Architect Certification",
+  "goal_category": "one_time",
+  "goal_type": "career_development",
+  "time_horizon": "30",
+  "description": "Pass the Google Cloud Professional Cloud Architect exam by mastering resource management, networking, and high availability design.",
+  "baseline": {
+    "fixed_constraints": "Exam date is set for day 31.",
+    "physical_constraints": "None.",
+    "non_negotiables": "Must pass two full-length practice exams with >80% before sitting for the real exam."
+  },
+  "failure_policy": {
+    "missed_task_handling": "retry",
+    "habit_miss_interpretation": "neutral"
+  },
+  "tasks": [
+    {
+      "index": 1,
+      "task": "Compute and Storage Review",
+      "description": "Review differences between GCE, GKE, App Engine, and Cloud Functions. Study Cloud Spanner vs Cloud SQL use cases.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 120,
+        "max": 180
+      },
+      "success_criteria": "A decision matrix table exists comparing latency, scalability, and cost for each storage type.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 2,
+      "task": "Networking Deep Dive",
+      "description": "Study VPC Peering, Shared VPCs, Cloud Interconnect, and Hybrid Connectivity options.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 90,
+        "max": 150
+      },
+      "success_criteria": "Correctly explained the difference between a Global Load Balancer and a Regional one in the study notes.",
+      "fallback_version": "",
+      "dependencies": ""
+    },
+    {
+      "index": 3,
+      "task": "Case Study Analysis",
+      "description": "Read the three official GCP exam case studies (e.g., Mountkirk Games) and map solutions to their business requirements.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 60,
+        "max": 90
+      },
+      "success_criteria": "A written technical solution proposal exists for each case study.",
+      "fallback_version": "",
+      "dependencies": "1, 2"
+    },
+    {
+      "index": 4,
+      "task": "Practice Exam A",
+      "description": "Take a 50-question timed practice exam in a silent room.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 120,
+        "max": 150
+      },
+      "success_criteria": "Exam completed and results analyzed for weak domains.",
+      "fallback_version": "",
+      "dependencies": "3"
+    },
+    {
+      "index": 5,
+      "task": "Targeted Remediation",
+      "description": "Review every missed question from Practice Exam A and watch deep-dive videos on those specific topics.",
+      "is_repeatable": false,
+      "repeat_pattern": "none",
+      "estimated_duration_minutes": {
+        "min": 120,
+        "max": 180
+      },
+      "success_criteria": "A new set of flashcards exists for every missed concept.",
+      "fallback_version": "",
+      "dependencies": "4"
+    }
+  ]
+}
