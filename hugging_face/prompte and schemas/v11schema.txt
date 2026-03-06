@@ -2,14 +2,8 @@
     "goal": "",
     "goal_category": "one_time | habit",
     "goal_type": "",
-    "time_horizon": ,
+    "time_horizon": ,   
     "description": "",
-    "baseline": {
-        "fixed_constraints": "",
-        "physical_constraints": "",
-        "non_negotiables": ""
-    },
-    
     "tasks": []
 }
 {
@@ -25,6 +19,18 @@
     },
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
 You are generating synthetic training data for a goal decomposition system.
 
 Your task is to output a single JSON object that strictly follows the provided schema.
